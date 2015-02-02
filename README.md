@@ -1,11 +1,11 @@
-# Grumblr
+# Stumplr
 
 [Heroku link][heroku]
 
 [heroku]: http://flux-capacitr.herokuapp.com
 
 ## Minimum Viable Product
-Flux-capacitr is a clone of Tumblr where people can complain about their problems to people on the internet. Users can:
+Stumplr is a tumblr clone where peole can post tricky riddles for others to solve. Users can:
 
 - [x] Sign Up
 - [x] Sign In

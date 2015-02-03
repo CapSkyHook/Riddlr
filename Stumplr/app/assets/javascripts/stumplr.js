@@ -4,7 +4,8 @@ window.Stumplr = {
   Views: {},
   Routers: {},
   initialize: function() {
-    alert('Hello from Backbone!');
+    new Stumplr.Routers.Router
+    Backbone.history.start();
   }
 };
 

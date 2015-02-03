@@ -1,0 +1,14 @@
+<% if flash[:errors] %>
+<div class="alert alert-warning alert-dismissible" role="alert">
+   <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+<%= flash[:errors].join("<br>").html_safe %>
+</div>
+<% end %>
+
+<% if signed_in? %>
+      <h3>Welcome, <%= current_user.email %></h3>
+      <label><%= button_to "Sign out", session_url, method: :delete %></label>
+    <% else %>
+      <label><%= link_to "Log in", new_session_url %></label>
+      <label><%= link_to "Sign up", new_user_url %></label>
+  <% end %>

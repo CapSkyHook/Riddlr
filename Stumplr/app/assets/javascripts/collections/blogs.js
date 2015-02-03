@@ -1,5 +1,5 @@
 Stumplr.Collections.Blogs = Backbone.Collection.extend({
-  model: TrelloClone.Models.Blog,
+  model: Stumplr.Models.Blog,
   url: 'blogs',
 
   getOrFetch: function (id) {
@@ -20,4 +20,4 @@ Stumplr.Collections.Blogs = Backbone.Collection.extend({
   }
 });
 
-Stumplr.Collections.blogs = new Stumplr.Collections.Blogs
+Stumplr.Collections.blogs = new Stumplr.Collections.Blogs();

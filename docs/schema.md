@@ -21,7 +21,7 @@ id          | integer   | not null, primary key
 user_id     | integer   | not null, foreign key (references users)
 blog_id     | integer   | not null, foreign key (references blogs)
 title       | string    | not null
-body        | string    |
+body        | text      |
 
 ## tags
 column name | data type | details

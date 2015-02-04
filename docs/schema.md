@@ -18,7 +18,7 @@ follower_id | integer   | not null, foreign key (references users)
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
-author_id   | integer   | not null, foreign key (references users)
+user_id     | integer   | not null, foreign key (references users)
 blog_id     | integer   | not null, foreign key (references blogs)
 title       | string    | not null
 body        | string    |

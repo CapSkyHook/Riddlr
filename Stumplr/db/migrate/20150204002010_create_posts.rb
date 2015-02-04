@@ -5,6 +5,7 @@ class CreatePosts < ActiveRecord::Migration
       t.integer :blog_id, null: false
       t.string :title, null: false
       t.text :body, null: false
+      t.string :content_type
       t.timestamps null: false
     end
     add_index :posts, :title

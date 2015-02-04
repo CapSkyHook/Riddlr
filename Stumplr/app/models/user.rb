@@ -21,6 +21,7 @@ class User < ActiveRecord::Base
   has_many( :blogs,
     class_name: "Blog",
     foreign_key: :owner_id)
+  has_many :posts
 
   attr_reader :password
 

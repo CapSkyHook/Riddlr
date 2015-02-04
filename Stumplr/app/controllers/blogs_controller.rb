@@ -21,6 +21,8 @@ class BlogsController < ApplicationController
   end
 
   def show
+    @blog = current_user.blogs.find(params[:id])
+    render json: @blogs
   end
 
   private

@@ -6,35 +6,19 @@ Stumplr.Routers.Router = Backbone.Router.extend({
   },
 
   routes: {
-    "": "blogsIndex",
-    "blogs/:id": "blogsShow",
-    "blogs/new": "blogsCreate"
-
-  },
-
-  blogsIndex: function () {
-    Stumplr.Collections.blogs.fetch();
-    var view = new Stumplr.Views.BlogsIndex({
-      collection: Stumplr.Collections.blogs
-    });
-
-    this._swapView(view);
-
+    "": "blogs/1",
+    "blogs/:id": "blogsShow"
   },
 
   blogsShow: function (id) {
-    var board = Stumplr.Collections.blogs.getOrFetch(id);
-
-    var view = new Stumplr.Views.BoardShow({
-      model: board
+    var blog = Stumplr.Collections.blogs.getOrFetch(id);
+    var view = new Stumplr.Views.BlogShow({
+      model: blog
     });
 
     this._swapView(view);
   },
 
-  blogsCreate: function () {
-
-  },
 
   _swapView: function (view) {
     this.currentView && this.currentView.remove();

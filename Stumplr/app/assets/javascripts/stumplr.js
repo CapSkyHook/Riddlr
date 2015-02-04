@@ -8,7 +8,3 @@ window.Stumplr = {
     Backbone.history.start();
   }
 };
-
-$(document).ready(function(){
-  Stumplr.initialize();
-});

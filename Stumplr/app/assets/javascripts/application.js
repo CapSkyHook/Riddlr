@@ -12,9 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.serializeJSON
 //= require turbolinks
 //= require underscore
 //= require backbone
+//= require bootstrap
 //= require stumplr
 //= require_tree ../templates
 //= require_tree ./utils

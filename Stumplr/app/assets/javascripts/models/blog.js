@@ -3,7 +3,7 @@ Stumplr.Models.Blog = Backbone.Model.extend({
 
   posts: function () {
     if (!this._posts) {
-      this._posts = new TrelloClone.Collections.Posts([], { blog: this });
+      this._posts = new Stumplr.Collections.Posts([], { blog: this });
     }
 
     return this._posts;

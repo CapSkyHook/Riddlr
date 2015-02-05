@@ -16,15 +16,15 @@ class PostsController < ApplicationController
       render json: {}
     end
 
-    def update
-      @post = current_board.posts.find(params[:id])
-
-      if @post.update_attributes(post_params)
-        render json: @post
-      else
-        render json: @post.errors.full_messages, status: :unprocessable_entity
-      end
-    end
+    # def update
+    #   @post = current_board.posts.find(params[:id])
+    #
+    #   if @post.update_attributes(post_params)
+    #     render json: @post
+    #   else
+    #     render json: @post.errors.full_messages, status: :unprocessable_entity
+    #   end
+    # end
 
     private
 
@@ -38,7 +38,7 @@ class PostsController < ApplicationController
     end
 
     def post_params
-      params.require(:post).permit(:title, :board_id, :body, :user_id, :content_type)
+      params.require(:post).permit(:title, :board_id, :body, :user_id, :content_type, :filepicker_url)
     end
 
 end

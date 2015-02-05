@@ -1,37 +1,14 @@
 <div class="page-header text-center">
-  <h1> <%= blog.get('title') %> </h1>
+  <h1> <%= blog.escape('title') %> </h1>
 </div>
 <div class="text-center">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="Text">Text</button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="Picture">Picture</button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="Quote">Quote</button>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newPostForm" data-whatever="Text">Text</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newPostForm" data-whatever="Picture">Picture</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newPostForm" data-whatever="Quote">Quote</button>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="newPostForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <!-- <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="newpostlabel">New Post!</h4>
-      </div>
-      <div class="modal-body">
-        <form id="form_id">
-          <div class="form-group">
-            <label for="post-title" class="control-label">Title</label>
-            <input type="text" class="form-control" id="recipient-name" name="post[title]">
-          </div>
-          <div class="form-group">
-            <label for="message-text" class="control-label">Content</label>
-            <textarea class="form-control" id="message-text" name="post[body]"></textarea>
-          </div>
-          <div class="form-group">
-            <input type="hidden" class="form-control content-type" id="content-type" name="post[content_type]">
-          </div>
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-primary" data-dismiss="modal">Create Post!</button>
-        </form>
-      </div>
-      <div class="modal-footer">
-      </div> -->
     </div>
   </div>
 </div>

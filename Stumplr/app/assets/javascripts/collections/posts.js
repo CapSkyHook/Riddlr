@@ -1,6 +1,6 @@
-Stumplr.Collections.Blogs = Backbone.Collection.extend({
-  model: Stumplr.Models.Blog,
-  url: function () {'blogs/'+ this.get('blog_id') + '/posts'},
+Stumplr.Collections.Posts = Backbone.Collection.extend({
+  model: Stumplr.Models.Post,
+  url: '/posts',
 
   getOrFetch: function (id) {
     var post = this.get(id);

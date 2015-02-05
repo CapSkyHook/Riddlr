@@ -4,9 +4,7 @@ Rails.application.routes.draw do
 
   resource :session
 
-    resources :blogs do
-      resources :posts, only: [:new, :index, :create, :edit, :delete]
-    end
-    resources :posts, only: [:show]
+  resources :blogs
+  resources :posts
 
 end

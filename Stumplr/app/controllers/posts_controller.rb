@@ -16,22 +16,27 @@ class PostsController < ApplicationController
       render json: {}
     end
 
-    # def update
-    #   @post = current_board.posts.find(params[:id])
-    #
-    #   if @post.update_attributes(post_params)
-    #     render json: @post
-    #   else
-    #     render json: @post.errors.full_messages, status: :unprocessable_entity
-    #   end
-    # end
+    def show
+      @post = Post.find(params[:id])
+      render json: @post
+    end
+
+    def update
+      @post = current_blog.posts.find(params[:id])
+
+      if @post.update_attributes(post_params)
+        render json: @post
+      else
+        render json: @post.errors.full_messages, status: :unprocessable_entity
+      end
+    end
 
     private
 
     def current_blog
       if params[:id]
         @post = Post.find(params[:id])
-        @blog = @post.board
+        @blog = @post.blog
       elsif params[:post]
         @blog = Blog.find(params[:post][:blog_id])
       end

@@ -1,20 +1,20 @@
-<div class="page-header text-center">
+
+<div class="page-header align-left text-center">
+  <button name="button">Subscribe</button>
   <h1> <%= blog.escape('title') %> </h1>
 </div>
 <div class="text-center">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newPostForm" data-whatever="Text">Text</button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newPostForm" data-whatever="Picture">Picture</button>
+  <button type="button" class="btn btn-primary make-post-form" data-toggle="modal" data-target="#newPostForm" data-whatever="Text">Text</button>
+<button type="button" class="btn btn-primary make-post-form" data-toggle="modal" data-target="#newPostForm" data-whatever="Picture">Picture</button>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newPostForm" data-whatever="Quote">Quote</button>
 
-<div class="modal fade" id="newPostForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-    </div>
+
+  <div id="modal-form-wrapper">
+
   </div>
 </div>
-</div>
+<br>
 <div class="text-center">
     <div id="posts">
-    Something in here?
     </div>
 </div>

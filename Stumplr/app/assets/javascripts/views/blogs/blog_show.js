@@ -9,23 +9,27 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
     this.listenTo(this.model.posts(), "new", this.closeModal);
     this.collection = this.model.posts();
     this.listenTo(this.collection, 'add', this.addPost);
+    this.listenTo(this.collection, 'destroy', this.render);
 
 
   },
 
   events: {
-    'show.bs.modal #newPostForm': 'showModal'
+    // 'show.bs.modal #modal-form': 'showModal'
+    "click button.make-post-form": 'showModal'
   },
 
   showModal: function (event) {
-    var button = $(event.relatedTarget);
+    var button = $(event.currentTarget);
     var recipient = button.data('whatever');
+
+    var newPost = new Stumplr.Models.Post({ blog_id: this.model.id })
     var view = new Stumplr.Views.PostForm({
       recipient: recipient,
-      model: this.model,
+      model: newPost,
       collection: this.model.posts()
     });
-    this.$el.find('.modal-content').html(view.render().$el);
+    this.$el.find('#modal-form-wrapper').html(view.render().$el);
   },
 
   render: function () {
@@ -38,9 +42,6 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
     return this;
   },
 
-  closeModal: function (event) {
-    $('#newPostForm').modal('hide')
-  },
 
   addPost: function (post) {
     var view = new Stumplr.Views.PostShow({
@@ -50,7 +51,6 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
   },
 
   renderPosts: function () {
-    debugger;
     this.model.posts().each(this.addPost.bind(this));
 },
 });

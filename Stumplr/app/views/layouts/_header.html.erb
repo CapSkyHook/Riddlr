@@ -27,7 +27,7 @@
                 <h4 class="modal-title" id="myModalLabel">New Blog!</h4>
               </div>
               <div class="modal-body">
-                <form id="new-blog-form" action="<%= blogs_url %>" method="post">
+                <form id="new-blog-form" action="<%= api_blogs_url %>" method="post">
                   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
                 <div class="form-group">
                   <label for="newblogtitle">Title</label>

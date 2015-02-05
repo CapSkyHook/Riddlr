@@ -1,5 +1,5 @@
 Stumplr.Models.Blog = Backbone.Model.extend({
-  urlRoot: 'blogs',
+  urlRoot: 'api/blogs',
 
   posts: function () {
     if (!this._posts) {

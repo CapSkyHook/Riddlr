@@ -10,6 +10,12 @@
 </head>
 <body>
 <%= render partial: "layouts/header" %>
+<script>
+  <% if current_user %>
+    Stumplr.current_user_id = <%= current_user.id %>
+    console.log(Stumplr.current_user_id)
+  <% end %>
+</script>
 <%= yield %>
 </body>
 </html>

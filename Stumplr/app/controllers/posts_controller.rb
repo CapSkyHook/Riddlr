@@ -1,4 +1,10 @@
 class PostsController < ApplicationController
+
+    def index
+      @posts = Post.where(blog_id: current_user.blog_ids).order(:created_at)
+      render json: @posts
+    end
+
     def create
       @post = current_blog.posts.new(post_params)
       @post.user_id = current_blog.owner_id

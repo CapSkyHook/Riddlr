@@ -1,12 +1,20 @@
 
 <div class="page-header align-left text-center">
-  <button name="button">Subscribe</button>
+
   <h1> <%= blog.escape('title') %> </h1>
+  <% if (this.current_user_id !== blog.get('owner_id')) { %>
+    <button name="button">Subscribe</button>
+  <% } %>
+
 </div>
 <div class="text-center">
-  <button type="button" class="btn btn-primary make-post-form" data-toggle="modal" data-target="#newPostForm" data-whatever="Text">Text</button>
-<button type="button" class="btn btn-primary make-post-form" data-toggle="modal" data-target="#newPostForm" data-whatever="Picture">Picture</button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newPostForm" data-whatever="Quote">Quote</button>
+  <% if (this.current_user_id === blog.get('owner_id')) { %>
+
+      <button type="button" class="btn btn-primary make-post-form" data-toggle="modal" data-target="#newPostForm" data-whatever="Text">Text</button>
+    <button type="button" class="btn btn-primary make-post-form" data-toggle="modal" data-target="#newPostForm" data-whatever="Picture">Picture</button>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newPostForm" data-whatever="Quote">Quote</button>
+  <% } %>
+
 
 
   <div id="modal-form-wrapper">

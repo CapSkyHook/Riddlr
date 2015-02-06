@@ -21,7 +21,7 @@ class Api::BlogsController < Api::ApiController
   end
 
   def show
-    @blog = current_user.blogs.includes(:posts).find(params[:id])
+    @blog = Blog.includes(:posts).find(params[:id])
     render :show
   end
 

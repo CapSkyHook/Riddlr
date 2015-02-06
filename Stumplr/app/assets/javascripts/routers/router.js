@@ -1,13 +1,25 @@
 Stumplr.Routers.Router = Backbone.Router.extend({
   initialize: function (){
 
-    this.$rootEl = $('#content')
+    this.$rootEl = $('#content');
+    this.$sideEl = $('#sidebar');
 
   },
 
   routes: {
-    "": "blogs/1",
+    "": "feedView",
     "blogs/:id": "blogsShow"
+  },
+
+  feedView: function () {
+    var posts = new Stumplr.Collections.Posts();
+    posts.fetch();
+    var indexView = new Stumplr.Views.FeedView({
+      collection: posts
+    });
+
+    this._swapView(indexView);
+
   },
 
   blogsShow: function (id) {

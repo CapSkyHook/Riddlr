@@ -15,7 +15,6 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
   },
 
   events: {
-    // 'show.bs.modal #modal-form': 'showModal'
     "click button.make-post-form": 'showModal'
   },
 

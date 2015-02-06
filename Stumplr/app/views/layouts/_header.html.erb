@@ -33,6 +33,9 @@
                   <label for="newblogtitle">Title</label>
                   <input type="text" class="form-control" id="newblogtitle" placeholder="Enter Blog Title" name="blog[title]">
                 </div>
+                <div class="form-group">
+                  <input type="hidden" class="form-control" id="newblogtitle" placeholder="Enter Blog Title" name="blog[owner_id]" value="<%= current_user ? current_user.id : nil %>">
+                </div>
                 <button type="submit" class="btn btn-default">Submit</button>
               </form>
               </div>

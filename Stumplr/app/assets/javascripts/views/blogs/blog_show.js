@@ -1,5 +1,5 @@
 Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
-  Template: JST['blogs/show'],
+  template: JST['blogs/show'],
 
 
   className: 'blog-show',
@@ -16,6 +16,7 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
 
   events: {
     "click button.make-post-form": 'showModal'
+    "click button.subscribe-button": "addSubscription"
   },
 
   showModal: function (event) {
@@ -32,7 +33,7 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
   },
 
   render: function () {
-    var renderedContent = this.Template({
+    var renderedContent = this.template({
       blog: this.model
     });
     this.$el.html(renderedContent);
@@ -51,5 +52,9 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
 
   renderPosts: function () {
     this.model.posts().each(this.addPost.bind(this));
-},
+  },
+
+  addSubscription: function () {
+    console.log("add subs");
+  }
 });

@@ -1,4 +1,4 @@
-json.extract! @blog, :id, :title, :created_at, :updated_at
+json.extract! @blog, :id, :title, :owner_id, :created_at, :updated_at
 
 
 json.posts @blog.posts do |post|

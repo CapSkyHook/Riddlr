@@ -38,10 +38,6 @@ Stumplr.Views.PostShow = Backbone.CompositeView.extend({
       collection: this.model.collection
     });
     this.$("#modal-form-wrapper").html(editFormView.render().$el);
-  },
-
-  // closeModal: function (event) {
-  //   this.$('.modal-form-wrapper').modal('hide')
-  // }
+  }
 
 })

@@ -18,12 +18,12 @@ class User < ActiveRecord::Base
   validates :password, length: { minimum: 5, allow_nil: true}
 
 
-  has_many( :blogs,
+  has_many(:blogs,
     class_name: "Blog",
     foreign_key: :owner_id)
   has_many :posts
   has_many :subscriptions
-  has_many :blogs, through: :subscriptions, source: :blog
+  has_many :subscribed_blogs, through: :subscriptions, source: :blog
 
   attr_reader :password
 

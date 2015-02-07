@@ -1,3 +1,3 @@
 Stumplr.Models.Subscription = Backbone.Model.extend({
-  urlRoot:
+  urlRoot: "/subscriptions"
 });

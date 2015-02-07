@@ -1,8 +1,10 @@
 Stumplr.Views.FeedView = Backbone.CompositeView.extend({
-  Template: JST['feeds/index'],
+  feedTemplate: JST['feeds/index'],
 
 
   className: 'feed-view',
+
+
 
   initialize: function () {
     this.listenTo(this.collection, 'add', this.addPost);
@@ -10,8 +12,7 @@ Stumplr.Views.FeedView = Backbone.CompositeView.extend({
 
 
   render: function () {
-    var renderedContent = this.Template({
-      blog: this.model
+    var renderedContent = this.feedTemplate({
     });
     this.$el.html(renderedContent);
     return this;
@@ -24,4 +25,5 @@ Stumplr.Views.FeedView = Backbone.CompositeView.extend({
     });
     this.addSubview('#feed-list', view);
   }
+
 });

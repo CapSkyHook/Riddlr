@@ -1,7 +1,9 @@
 class PostsController < ApplicationController
 
     def index
-      @posts = Post.where(blog_id: current_user.blog_ids).order(:created_at)
+      #if no query string
+      @posts = Post.where(blog_id: current_user.subscribed_blog_ids).order(:created_at)
+      #else
       render json: @posts
     end
 
@@ -49,7 +51,7 @@ class PostsController < ApplicationController
     end
 
     def post_params
-      params.require(:post).permit(:title, :board_id, :body, :user_id, :content_type, :filepicker_url)
+      params.require(:post).permit(:title, :blog_id, :body, :user_id, :content_type, :filepicker_url)
     end
 
 end

@@ -3,7 +3,7 @@ class Api::BlogsController < Api::ApiController
     @blog = current_user.blogs.new(blog_params)
 
     if @blog.save
-      redirect_to "/##{blog_path(@blog)}"
+      redirect_to "/#/" + "#{api_blog_path(@blog)}"[5..-1]
     else
       render json: @blog.errors.full_messages, status: :unprocessable_entity
     end
@@ -16,7 +16,11 @@ class Api::BlogsController < Api::ApiController
   end
 
   def index
-    @blogs = current_user.boards
+    if params[:search_term]
+      @blogs = Blog.where("LOWER(title) ~ lower(?)", params[:search_term])
+    else
+      @blogs = current_user.blogs.uniq
+    end
     render json: @blogs
   end
 
@@ -30,3 +34,5 @@ class Api::BlogsController < Api::ApiController
     params.require(:blog).permit(:title, :owner_id)
   end
 end
+
+#c.fetch({data: {search_term: "law"}})

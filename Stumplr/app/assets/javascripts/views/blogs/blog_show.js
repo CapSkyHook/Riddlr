@@ -11,12 +11,10 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
     this.listenTo(this.collection, 'add', this.addPost);
     this.listenTo(this.collection, 'destroy', this.render);
 
-
   },
 
   events: {
     "click button.make-post-form": 'showModal'
-    "click button.subscribe-button": "addSubscription"
   },
 
   showModal: function (event) {
@@ -38,7 +36,7 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
     });
     this.$el.html(renderedContent);
     this.renderPosts();
-
+    this.addSubscribeButton();
     return this;
   },
 
@@ -50,11 +48,15 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
     this.addSubview('#posts', view);
   },
 
-  renderPosts: function () {
-    this.model.posts().each(this.addPost.bind(this));
+  addSubscribeButton: function () {
+    var view = new Stumplr.Views.SubscribeButtonView({
+      model: this.model.subscription(),
+      blog_id: this.model.id
+    });
+    this.addSubview('#subscribe-button', view);
   },
 
-  addSubscription: function () {
-    console.log("add subs");
+  renderPosts: function () {
+    this.model.posts().each(this.addPost.bind(this));
   }
 });

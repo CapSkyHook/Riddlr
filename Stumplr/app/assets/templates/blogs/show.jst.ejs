@@ -1,10 +1,11 @@
-
+<% if (!(Stumplr.current_user_id === blog.get('owner_id'))) { %>
+  <div id="subscribe-button">
+  </div>
+<% } %>
 <div class="page-header align-left text-center">
 
   <h1> <%= blog.escape('title') %> </h1>
-  <% if (!(Stumplr.current_user_id === blog.get('owner_id'))) { %>
-    <button name="button" class="subscribe-button">Subscribe</button>
-  <% } %>
+
 
 
 

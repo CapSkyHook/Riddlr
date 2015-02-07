@@ -16,7 +16,11 @@ class BlogsController < ApplicationController
   end
 
   def index
-    @blogs = current_user.boards
+    if params[:search_term]
+      @blogs = Blog.where(title: params[:search_term])
+    else
+      @blogs = current_user.blogs
+    end
     render json: @blogs
   end
 

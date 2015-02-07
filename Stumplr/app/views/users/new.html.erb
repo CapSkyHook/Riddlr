@@ -1,17 +1,22 @@
 <div class="container">
-  <div class="span12">
+  <div class="row">
 
-  <h1>Sign Up</h1>
+    <div class=" col-sm-6">
 
-  <form action="/users" method="post">
-    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-    <label>Email<br>
-      <input name="user[email]" type="text"><br>
-    </label><br>
-    <label>Password<br>
-      <input name="user[password]" type="password"><br>
-    </label><br>
-    <input type="submit" value="Submit" class="btn btn-primary"><br>
-  </form>
+    <h1>Sign Up</h1>
+
+    <form action="/users" method="post">
+      <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+      <label>Email<br>
+        <input name="user[email]" type="text"><br>
+      </label><br>
+      <label>Password<br>
+        <input name="user[password]" type="password"><br>
+      </label><br>
+      <input type="submit" value="Submit" class="btn btn-primary"><br>
+    </form>
+    <a href="/session/new">Sign In!</a>
+
+    </div>
   </div>
 </div>

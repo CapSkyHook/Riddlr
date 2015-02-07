@@ -33,8 +33,10 @@ Stumplr.Views.SidebarView = Backbone.CompositeView.extend({
 
   searchResults: function (event) {
     event.preventDefault();
+    var that = this;
     var attrs = $(event.target).serializeJSON();
-    Stumplr.Collections.blogs.fetch({ data: { search_term: attrs }})
+    Stumplr.Collections.blogs.fetch({
+      data: attrs})
     // var renderedContent = new Stumplr.Views.SearchView({
     //   collection: blogResults
     // });
@@ -42,7 +44,6 @@ Stumplr.Views.SidebarView = Backbone.CompositeView.extend({
     // this.$rootEl.html(renderedContent.render().$el);
 
 
-    debugger;
   }
 
 });

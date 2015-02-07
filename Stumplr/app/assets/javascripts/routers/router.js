@@ -8,7 +8,8 @@ Stumplr.Routers.Router = Backbone.Router.extend({
 
   routes: {
     "": "feedView",
-    "blogs/:id": "blogsShow"
+    "blogs/:id": "blogsShow",
+    "search/:search_term": "search"
   },
 
   feedView: function () {
@@ -19,6 +20,10 @@ Stumplr.Routers.Router = Backbone.Router.extend({
     });
 
     this._swapView(indexView);
+  },
+
+  search: function (search_term) {
+
   },
 
   blogsShow: function (id) {

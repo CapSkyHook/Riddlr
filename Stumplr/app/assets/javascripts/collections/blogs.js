@@ -21,3 +21,4 @@ Stumplr.Collections.Blogs = Backbone.Collection.extend({
 });
 
 Stumplr.Collections.blogs = new Stumplr.Collections.Blogs();
+Stumplr.Collections.searchResultBlogs = new Stumplr.Collections.Blogs();

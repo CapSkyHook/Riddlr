@@ -9,6 +9,7 @@
 #  gravatar_url    :string
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
+#  phone_number    :string
 #
 
 class User < ActiveRecord::Base

@@ -3,8 +3,9 @@ Stumplr.Views.SearchViewItem = Backbone.CompositeView.extend({
 
   className: 'search-item',
 
+  idName: 'search-item-<%= blog.id %>',
+
   initialize: function () {
-    // this.listenTo(this.collection, 'sync', this.render);
     this.model.posts().each(this.addLink.bind(this));
 
   },

@@ -1,0 +1,822 @@
+# Logfile created on 2015-02-03 10:58:48 -0800 by logger.rb/44203
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] INFO : Environment: development
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] INFO : No known dispatcher detected.
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] INFO : Application: development
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] INFO : Installing ActiveJob instrumentation
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] INFO : Installing Net instrumentation
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] INFO : Installing deferred Rack instrumentation
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 10:58:48 -0800 Gautams-MacBook-Pro.local (29227)] INFO : Finished instrumentation
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] INFO : Environment: development
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] INFO : No known dispatcher detected.
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] INFO : Application: development
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] INFO : Installing ActiveJob instrumentation
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] INFO : Installing Net instrumentation
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] INFO : Installing deferred Rack instrumentation
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 11:07:58 -0800 Gautams-MacBook-Pro.local (29461)] INFO : Finished instrumentation
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] INFO : Environment: development
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] INFO : No known dispatcher detected.
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] INFO : Application: development
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] INFO : Installing ActiveJob instrumentation
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] INFO : Installing Net instrumentation
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] INFO : Installing deferred Rack instrumentation
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 11:28:26 -0800 Gautams-MacBook-Pro.local (29625)] INFO : Finished instrumentation
+[02/03/15 11:34:18 -0800 Gautams-MacBook-Pro.local (29675)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 11:34:18 -0800 Gautams-MacBook-Pro.local (29675)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 11:34:18 -0800 Gautams-MacBook-Pro.local (29675)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/03/15 11:34:18 -0800 Gautams-MacBook-Pro.local (29675)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/03/15 11:34:18 -0800 Gautams-MacBook-Pro.local (29675)] INFO : Environment: development
+[02/03/15 11:34:18 -0800 Gautams-MacBook-Pro.local (29675)] INFO : No known dispatcher detected.
+[02/03/15 11:34:18 -0800 Gautams-MacBook-Pro.local (29675)] INFO : Application: development
+[02/03/15 11:34:18 -0800 Gautams-MacBook-Pro.local (29675)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 11:34:18 -0800 Gautams-MacBook-Pro.local (29675)] INFO : Installing ActiveJob instrumentation
+[02/03/15 11:34:18 -0800 Gautams-MacBook-Pro.local (29675)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 11:34:18 -0800 Gautams-MacBook-Pro.local (29675)] INFO : Installing Net instrumentation
+[02/03/15 11:34:18 -0800 Gautams-MacBook-Pro.local (29675)] INFO : Installing deferred Rack instrumentation
+[02/03/15 11:34:18 -0800 Gautams-MacBook-Pro.local (29675)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 11:34:18 -0800 Gautams-MacBook-Pro.local (29675)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 11:34:18 -0800 Gautams-MacBook-Pro.local (29675)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 11:34:19 -0800 Gautams-MacBook-Pro.local (29675)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 11:34:19 -0800 Gautams-MacBook-Pro.local (29675)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 11:34:19 -0800 Gautams-MacBook-Pro.local (29675)] INFO : Finished instrumentation
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Environment: development
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Dispatcher: webrick
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Application: development
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Installing ActiveJob instrumentation
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Installing Net instrumentation
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Installing deferred Rack instrumentation
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Finished instrumentation
+[02/03/15 11:54:28 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Doing deferred dependency-detection before Rack startup
+[02/03/15 11:54:51 -0800 Gautams-MacBook-Pro.local (29803)] ERROR : Unknown license key
+[02/03/15 11:54:51 -0800 Gautams-MacBook-Pro.local (29803)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/03/15 11:55:38 -0800 Gautams-MacBook-Pro.local (29803)] INFO : Starting Agent shutdown
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Environment: development
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Dispatcher: webrick
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Application: development
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Installing ActiveJob instrumentation
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Installing Net instrumentation
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Installing deferred Rack instrumentation
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Finished instrumentation
+[02/03/15 13:27:11 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Doing deferred dependency-detection before Rack startup
+[02/03/15 13:27:16 -0800 Gautams-MacBook-Pro.local (30051)] ERROR : Unknown license key
+[02/03/15 13:27:16 -0800 Gautams-MacBook-Pro.local (30051)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/03/15 13:33:51 -0800 Gautams-MacBook-Pro.local (30051)] INFO : Starting Agent shutdown
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] INFO : Environment: development
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] INFO : No known dispatcher detected.
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] INFO : Application: development
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] INFO : Installing ActiveJob instrumentation
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] INFO : Installing Net instrumentation
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] INFO : Installing deferred Rack instrumentation
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 13:46:33 -0800 Gautams-MacBook-Pro.local (30202)] INFO : Finished instrumentation
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Environment: development
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Dispatcher: webrick
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Application: development
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Installing ActiveJob instrumentation
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Installing Net instrumentation
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Installing deferred Rack instrumentation
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 14:10:21 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Finished instrumentation
+[02/03/15 14:10:22 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Doing deferred dependency-detection before Rack startup
+[02/03/15 14:10:24 -0800 Gautams-MacBook-Pro.local (30345)] ERROR : Unknown license key
+[02/03/15 14:10:24 -0800 Gautams-MacBook-Pro.local (30345)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/03/15 15:39:48 -0800 Gautams-MacBook-Pro.local (30345)] INFO : Starting Agent shutdown
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Environment: development
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Dispatcher: webrick
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Application: development
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Installing ActiveJob instrumentation
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Installing Net instrumentation
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Installing deferred Rack instrumentation
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 15:43:06 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Finished instrumentation
+[02/03/15 15:43:07 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Doing deferred dependency-detection before Rack startup
+[02/03/15 15:43:10 -0800 Gautams-MacBook-Pro.local (30923)] ERROR : Unknown license key
+[02/03/15 15:43:10 -0800 Gautams-MacBook-Pro.local (30923)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/03/15 15:53:15 -0800 Gautams-MacBook-Pro.local (30923)] INFO : Starting Agent shutdown
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] INFO : Environment: development
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] INFO : No known dispatcher detected.
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] INFO : Application: development
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] INFO : Installing ActiveJob instrumentation
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] INFO : Installing Net instrumentation
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] INFO : Installing deferred Rack instrumentation
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 16:33:07 -0800 Gautams-MacBook-Pro.local (31384)] INFO : Finished instrumentation
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] INFO : Environment: development
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] INFO : No known dispatcher detected.
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] INFO : Application: development
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] INFO : Installing ActiveJob instrumentation
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] INFO : Installing Net instrumentation
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] INFO : Installing deferred Rack instrumentation
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 16:33:25 -0800 Gautams-MacBook-Pro.local (31390)] INFO : Finished instrumentation
+[02/03/15 16:35:42 -0800 Gautams-MacBook-Pro.local (31544)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 16:35:42 -0800 Gautams-MacBook-Pro.local (31544)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 16:35:42 -0800 Gautams-MacBook-Pro.local (31544)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/03/15 16:35:42 -0800 Gautams-MacBook-Pro.local (31544)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/03/15 16:35:42 -0800 Gautams-MacBook-Pro.local (31544)] INFO : Environment: development
+[02/03/15 16:35:42 -0800 Gautams-MacBook-Pro.local (31544)] INFO : No known dispatcher detected.
+[02/03/15 16:35:42 -0800 Gautams-MacBook-Pro.local (31544)] INFO : Application: development
+[02/03/15 16:35:42 -0800 Gautams-MacBook-Pro.local (31544)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 16:35:42 -0800 Gautams-MacBook-Pro.local (31544)] INFO : Installing ActiveJob instrumentation
+[02/03/15 16:35:42 -0800 Gautams-MacBook-Pro.local (31544)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 16:35:42 -0800 Gautams-MacBook-Pro.local (31544)] INFO : Installing Net instrumentation
+[02/03/15 16:35:42 -0800 Gautams-MacBook-Pro.local (31544)] INFO : Installing deferred Rack instrumentation
+[02/03/15 16:35:42 -0800 Gautams-MacBook-Pro.local (31544)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 16:35:42 -0800 Gautams-MacBook-Pro.local (31544)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 16:35:42 -0800 Gautams-MacBook-Pro.local (31544)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 16:35:43 -0800 Gautams-MacBook-Pro.local (31544)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 16:35:43 -0800 Gautams-MacBook-Pro.local (31544)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 16:35:43 -0800 Gautams-MacBook-Pro.local (31544)] INFO : Finished instrumentation
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] INFO : Environment: development
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] INFO : No known dispatcher detected.
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] INFO : Application: development
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] INFO : Installing ActiveJob instrumentation
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] INFO : Installing Net instrumentation
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] INFO : Installing deferred Rack instrumentation
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 17:30:12 -0800 Gautams-MacBook-Pro.local (31830)] INFO : Finished instrumentation
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] INFO : Environment: development
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] INFO : No known dispatcher detected.
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] INFO : Application: development
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] INFO : Installing ActiveJob instrumentation
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] INFO : Installing Net instrumentation
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] INFO : Installing deferred Rack instrumentation
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 17:30:45 -0800 Gautams-MacBook-Pro.local (31834)] INFO : Finished instrumentation
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] INFO : Starting the New Relic agent in "development" environment.
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] INFO : Environment: development
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] INFO : No known dispatcher detected.
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] INFO : Application: development
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] INFO : Installing ActiveJob instrumentation
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] INFO : Installing ActiveRecord 4 instrumentation
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] INFO : Installing Net instrumentation
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] INFO : Installing deferred Rack instrumentation
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] INFO : Installing Rack::Builder middleware instrumentation
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] INFO : Installing Rails 3+ middleware instrumentation
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] INFO : Installing Rails 4 Controller instrumentation
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] INFO : Installing Rails 4 view instrumentation
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] INFO : Installing Rails 4 Error instrumentation
+[02/03/15 17:32:00 -0800 Gautams-MacBook-Pro.local (31856)] INFO : Finished instrumentation
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Starting the New Relic agent in "development" environment.
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Environment: development
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Dispatcher: webrick
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Application: development
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Installing ActiveJob instrumentation
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Installing ActiveRecord 4 instrumentation
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Installing Net instrumentation
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Installing deferred Rack instrumentation
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Installing Rack::Builder middleware instrumentation
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Installing Rails 3+ middleware instrumentation
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Installing Rails 4 Controller instrumentation
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Installing Rails 4 view instrumentation
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Installing Rails 4 Error instrumentation
+[02/04/15 09:06:23 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Finished instrumentation
+[02/04/15 09:06:24 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Doing deferred dependency-detection before Rack startup
+[02/04/15 09:06:25 -0800 Gautams-MacBook-Pro.local (32655)] ERROR : Unknown license key
+[02/04/15 09:06:25 -0800 Gautams-MacBook-Pro.local (32655)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] INFO : Starting the New Relic agent in "development" environment.
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] INFO : Environment: development
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] INFO : No known dispatcher detected.
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] INFO : Application: development
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] INFO : Installing ActiveJob instrumentation
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] INFO : Installing ActiveRecord 4 instrumentation
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] INFO : Installing Net instrumentation
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] INFO : Installing deferred Rack instrumentation
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] INFO : Installing Rack::Builder middleware instrumentation
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] INFO : Installing Rails 3+ middleware instrumentation
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] INFO : Installing Rails 4 Controller instrumentation
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] INFO : Installing Rails 4 view instrumentation
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] INFO : Installing Rails 4 Error instrumentation
+[02/04/15 09:07:33 -0800 Gautams-MacBook-Pro.local (32674)] INFO : Finished instrumentation
+[02/04/15 09:09:22 -0800 Gautams-MacBook-Pro.local (32655)] INFO : Starting Agent shutdown
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Starting the New Relic agent in "development" environment.
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Environment: development
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Dispatcher: webrick
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Application: development
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Installing ActiveJob instrumentation
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Installing ActiveRecord 4 instrumentation
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Installing Net instrumentation
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Installing deferred Rack instrumentation
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Installing Rack::Builder middleware instrumentation
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Installing Rails 3+ middleware instrumentation
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Installing Rails 4 Controller instrumentation
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Installing Rails 4 view instrumentation
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Installing Rails 4 Error instrumentation
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Finished instrumentation
+[02/04/15 09:09:37 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Doing deferred dependency-detection before Rack startup
+[02/04/15 09:09:38 -0800 Gautams-MacBook-Pro.local (32689)] ERROR : Unknown license key
+[02/04/15 09:09:38 -0800 Gautams-MacBook-Pro.local (32689)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/04/15 14:56:24 -0800 Gautams-MacBook-Pro.local (32689)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Association named 'cards' was not found on Blog; perhaps you misspelled it?
+[02/04/15 14:57:34 -0800 Gautams-MacBook-Pro.local (32689)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `id' for nil:NilClass
+[02/04/15 14:57:40 -0800 Gautams-MacBook-Pro.local (32689)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `each_with_object' for nil:NilClass
+[02/04/15 14:57:46 -0800 Gautams-MacBook-Pro.local (32689)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `each_with_object' for nil:NilClass
+[02/04/15 14:57:53 -0800 Gautams-MacBook-Pro.local (32689)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `each_with_object' for nil:NilClass
+[02/04/15 14:57:54 -0800 Gautams-MacBook-Pro.local (32689)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `each_with_object' for nil:NilClass
+[02/04/15 14:57:56 -0800 Gautams-MacBook-Pro.local (32689)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `each_with_object' for nil:NilClass
+[02/04/15 14:58:14 -0800 Gautams-MacBook-Pro.local (32689)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `each_with_object' for nil:NilClass
+[02/04/15 14:58:16 -0800 Gautams-MacBook-Pro.local (32689)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `each_with_object' for nil:NilClass
+[02/04/15 14:58:17 -0800 Gautams-MacBook-Pro.local (32689)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `each_with_object' for nil:NilClass
+[02/04/15 15:13:03 -0800 Gautams-MacBook-Pro.local (32689)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=
+[02/04/15 15:24:17 -0800 Gautams-MacBook-Pro.local (32689)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=
+[02/04/15 15:32:06 -0800 Gautams-MacBook-Pro.local (32689)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=
+[02/04/15 15:35:53 -0800 Gautams-MacBook-Pro.local (32689)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] INFO : Starting the New Relic agent in "development" environment.
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] INFO : Environment: development
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] INFO : No known dispatcher detected.
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] INFO : Application: development
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] INFO : Installing ActiveJob instrumentation
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] INFO : Installing ActiveRecord 4 instrumentation
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] INFO : Installing Net instrumentation
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] INFO : Installing deferred Rack instrumentation
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] INFO : Installing Rack::Builder middleware instrumentation
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] INFO : Installing Rails 3+ middleware instrumentation
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] INFO : Installing Rails 4 Controller instrumentation
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] INFO : Installing Rails 4 view instrumentation
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] INFO : Installing Rails 4 Error instrumentation
+[02/04/15 15:51:07 -0800 Gautams-MacBook-Pro.local (35097)] INFO : Finished instrumentation
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] INFO : Starting the New Relic agent in "development" environment.
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] INFO : Environment: development
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] INFO : No known dispatcher detected.
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] INFO : Application: development
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] INFO : Installing ActiveJob instrumentation
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] INFO : Installing ActiveRecord 4 instrumentation
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] INFO : Installing Net instrumentation
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] INFO : Installing deferred Rack instrumentation
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] INFO : Installing Rack::Builder middleware instrumentation
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] INFO : Installing Rails 3+ middleware instrumentation
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] INFO : Installing Rails 4 Controller instrumentation
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] INFO : Installing Rails 4 view instrumentation
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] INFO : Installing Rails 4 Error instrumentation
+[02/04/15 16:13:18 -0800 Gautams-MacBook-Pro.local (35204)] INFO : Finished instrumentation
+[02/04/15 16:31:49 -0800 Gautams-MacBook-Pro.local (32689)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `filepicker_js_include_tag' for #<#<Class:0x000001087de2f0>:0x0000010316c728>
+[02/04/15 16:32:40 -0800 Gautams-MacBook-Pro.local (32689)] INFO : Starting Agent shutdown
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Starting the New Relic agent in "development" environment.
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Environment: development
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Dispatcher: webrick
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Application: development
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Installing ActiveJob instrumentation
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Installing ActiveRecord 4 instrumentation
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Installing Net instrumentation
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Installing deferred Rack instrumentation
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Installing Rack::Builder middleware instrumentation
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Installing Rails 3+ middleware instrumentation
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Installing Rails 4 Controller instrumentation
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Installing Rails 4 view instrumentation
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Installing Rails 4 Error instrumentation
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Finished instrumentation
+[02/04/15 16:32:49 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Doing deferred dependency-detection before Rack startup
+[02/04/15 16:32:52 -0800 Gautams-MacBook-Pro.local (35343)] ERROR : Unknown license key
+[02/04/15 16:32:52 -0800 Gautams-MacBook-Pro.local (35343)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] INFO : Starting the New Relic agent in "development" environment.
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] INFO : Environment: development
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] INFO : No known dispatcher detected.
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] INFO : Application: development
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] INFO : Installing ActiveJob instrumentation
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] INFO : Installing ActiveRecord 4 instrumentation
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] INFO : Installing Net instrumentation
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] INFO : Installing deferred Rack instrumentation
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] INFO : Installing Rack::Builder middleware instrumentation
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] INFO : Installing Rails 3+ middleware instrumentation
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] INFO : Installing Rails 4 Controller instrumentation
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] INFO : Installing Rails 4 view instrumentation
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] INFO : Installing Rails 4 Error instrumentation
+[02/04/15 16:34:57 -0800 Gautams-MacBook-Pro.local (35362)] INFO : Finished instrumentation
+[02/04/15 16:35:00 -0800 Gautams-MacBook-Pro.local (35343)] INFO : Starting Agent shutdown
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Starting the New Relic agent in "development" environment.
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Environment: development
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Dispatcher: webrick
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Application: development
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Installing ActiveJob instrumentation
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Installing ActiveRecord 4 instrumentation
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Installing Net instrumentation
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Installing deferred Rack instrumentation
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Installing Rack::Builder middleware instrumentation
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Installing Rails 3+ middleware instrumentation
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Installing Rails 4 Controller instrumentation
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Installing Rails 4 view instrumentation
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Installing Rails 4 Error instrumentation
+[02/04/15 16:36:27 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Finished instrumentation
+[02/04/15 16:36:28 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Doing deferred dependency-detection before Rack startup
+[02/04/15 16:36:29 -0800 Gautams-MacBook-Pro.local (35375)] ERROR : Unknown license key
+[02/04/15 16:36:29 -0800 Gautams-MacBook-Pro.local (35375)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] INFO : Starting the New Relic agent in "development" environment.
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] INFO : Environment: development
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] INFO : No known dispatcher detected.
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] INFO : Application: development
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] INFO : Installing ActiveJob instrumentation
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] INFO : Installing ActiveRecord 4 instrumentation
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] INFO : Installing Net instrumentation
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] INFO : Installing deferred Rack instrumentation
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] INFO : Installing Rack::Builder middleware instrumentation
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] INFO : Installing Rails 3+ middleware instrumentation
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] INFO : Installing Rails 4 Controller instrumentation
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] INFO : Installing Rails 4 view instrumentation
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] INFO : Installing Rails 4 Error instrumentation
+[02/04/15 16:42:52 -0800 Gautams-MacBook-Pro.local (35430)] INFO : Finished instrumentation
+[02/04/15 16:43:00 -0800 Gautams-MacBook-Pro.local (35375)] INFO : Starting Agent shutdown
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Starting the New Relic agent in "development" environment.
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Environment: development
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Dispatcher: webrick
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Application: development
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Installing ActiveJob instrumentation
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Installing ActiveRecord 4 instrumentation
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Installing Net instrumentation
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Installing deferred Rack instrumentation
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Installing Rack::Builder middleware instrumentation
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Installing Rails 3+ middleware instrumentation
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Installing Rails 4 Controller instrumentation
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Installing Rails 4 view instrumentation
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Installing Rails 4 Error instrumentation
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Finished instrumentation
+[02/04/15 16:43:06 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Doing deferred dependency-detection before Rack startup
+[02/04/15 16:43:20 -0800 Gautams-MacBook-Pro.local (35433)] ERROR : Unknown license key
+[02/04/15 16:43:20 -0800 Gautams-MacBook-Pro.local (35433)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/04/15 16:44:57 -0800 Gautams-MacBook-Pro.local (35450)] INFO : Starting the New Relic agent in "development" environment.
+[02/04/15 16:44:57 -0800 Gautams-MacBook-Pro.local (35450)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/04/15 16:44:57 -0800 Gautams-MacBook-Pro.local (35450)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/04/15 16:44:57 -0800 Gautams-MacBook-Pro.local (35450)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/04/15 16:44:57 -0800 Gautams-MacBook-Pro.local (35450)] INFO : Environment: development
+[02/04/15 16:44:57 -0800 Gautams-MacBook-Pro.local (35450)] INFO : No known dispatcher detected.
+[02/04/15 16:44:57 -0800 Gautams-MacBook-Pro.local (35450)] INFO : Application: development
+[02/04/15 16:44:57 -0800 Gautams-MacBook-Pro.local (35450)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/04/15 16:44:58 -0800 Gautams-MacBook-Pro.local (35450)] INFO : Installing ActiveJob instrumentation
+[02/04/15 16:44:58 -0800 Gautams-MacBook-Pro.local (35450)] INFO : Installing ActiveRecord 4 instrumentation
+[02/04/15 16:44:58 -0800 Gautams-MacBook-Pro.local (35450)] INFO : Installing Net instrumentation
+[02/04/15 16:44:58 -0800 Gautams-MacBook-Pro.local (35450)] INFO : Installing deferred Rack instrumentation
+[02/04/15 16:44:58 -0800 Gautams-MacBook-Pro.local (35450)] INFO : Installing Rack::Builder middleware instrumentation
+[02/04/15 16:44:58 -0800 Gautams-MacBook-Pro.local (35450)] INFO : Installing Rails 3+ middleware instrumentation
+[02/04/15 16:44:58 -0800 Gautams-MacBook-Pro.local (35450)] INFO : Installing Rails 4 Controller instrumentation
+[02/04/15 16:44:58 -0800 Gautams-MacBook-Pro.local (35450)] INFO : Installing Rails 4 view instrumentation
+[02/04/15 16:44:58 -0800 Gautams-MacBook-Pro.local (35450)] INFO : Installing Rails 4 Error instrumentation
+[02/04/15 16:44:58 -0800 Gautams-MacBook-Pro.local (35450)] INFO : Finished instrumentation
+[02/04/15 16:46:20 -0800 Gautams-MacBook-Pro.local (35433)] INFO : Starting Agent shutdown
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Starting the New Relic agent in "development" environment.
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Environment: development
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Dispatcher: webrick
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Application: development
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Installing ActiveJob instrumentation
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Installing ActiveRecord 4 instrumentation
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Installing Net instrumentation
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Installing deferred Rack instrumentation
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Installing Rack::Builder middleware instrumentation
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Installing Rails 3+ middleware instrumentation
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Installing Rails 4 Controller instrumentation
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Installing Rails 4 view instrumentation
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Installing Rails 4 Error instrumentation
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Finished instrumentation
+[02/04/15 16:46:25 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Doing deferred dependency-detection before Rack startup
+[02/04/15 16:46:27 -0800 Gautams-MacBook-Pro.local (35459)] ERROR : Unknown license key
+[02/04/15 16:46:27 -0800 Gautams-MacBook-Pro.local (35459)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/04/15 17:05:29 -0800 Gautams-MacBook-Pro.local (35459)] INFO : Starting Agent shutdown
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Starting the New Relic agent in "development" environment.
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Environment: development
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Dispatcher: webrick
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Application: development
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Installing ActiveJob instrumentation
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Installing ActiveRecord 4 instrumentation
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Installing Net instrumentation
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Installing deferred Rack instrumentation
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Installing Rack::Builder middleware instrumentation
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Installing Rails 3+ middleware instrumentation
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Installing Rails 4 Controller instrumentation
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Installing Rails 4 view instrumentation
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Installing Rails 4 Error instrumentation
+[02/04/15 17:05:56 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Finished instrumentation
+[02/04/15 17:05:57 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Doing deferred dependency-detection before Rack startup
+[02/04/15 17:06:01 -0800 Gautams-MacBook-Pro.local (35604)] ERROR : Unknown license key
+[02/04/15 17:06:01 -0800 Gautams-MacBook-Pro.local (35604)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] INFO : Starting the New Relic agent in "development" environment.
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] INFO : Environment: development
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] INFO : No known dispatcher detected.
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] INFO : Application: development
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] INFO : Installing ActiveJob instrumentation
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] INFO : Installing ActiveRecord 4 instrumentation
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] INFO : Installing Net instrumentation
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] INFO : Installing deferred Rack instrumentation
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] INFO : Installing Rack::Builder middleware instrumentation
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] INFO : Installing Rails 3+ middleware instrumentation
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] INFO : Installing Rails 4 Controller instrumentation
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] INFO : Installing Rails 4 view instrumentation
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] INFO : Installing Rails 4 Error instrumentation
+[02/04/15 17:13:52 -0800 Gautams-MacBook-Pro.local (35664)] INFO : Finished instrumentation
+[02/05/15 11:49:43 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `current_board' for #<PostsController:0x0000010e1eb9a0>
+[02/05/15 11:50:01 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `current_board' for #<PostsController:0x0000010d362410>
+[02/05/15 11:50:34 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `board' for #<Post:0x0000010e0a93d0>
+[02/05/15 14:07:15 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The action 'new' could not be found for Api::BlogsController
+[02/05/15 14:07:19 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The action 'new' could not be found for Api::BlogsController
+[02/05/15 14:07:36 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `blog_path' for #<BlogsController:0x0000010a7077d0>
+[02/05/15 14:08:22 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `blog_path' for #<BlogsController:0x0000010c8013c8>
+[02/05/15 14:49:14 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/app/controllers/api/blogs_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+      redirect_to: "#"
+                  ^
+[02/05/15 14:49:20 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `blog_path' for #<BlogsController:0x000001022dee18>
+[02/05/15 14:49:29 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `blog_path' for #<BlogsController:0x0000010766fa78>
+[02/05/15 14:49:48 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `blog_path' for #<BlogsController:0x00000105e32640>
+[02/05/15 14:49:53 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `blog_path' for #<BlogsController:0x00000107743ad0>
+[02/05/15 14:50:15 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `blog_path' for #<BlogsController:0x000001072b2ac0>
+[02/05/15 14:50:41 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `blog_path' for #<BlogsController:0x000001015f9158>
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] INFO : Starting the New Relic agent in "development" environment.
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] INFO : Environment: development
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] INFO : No known dispatcher detected.
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] INFO : Application: development
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] INFO : Installing ActiveJob instrumentation
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] INFO : Installing ActiveRecord 4 instrumentation
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] INFO : Installing Net instrumentation
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] INFO : Installing deferred Rack instrumentation
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] INFO : Installing Rack::Builder middleware instrumentation
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] INFO : Installing Rails 3+ middleware instrumentation
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] INFO : Installing Rails 4 Controller instrumentation
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] INFO : Installing Rails 4 view instrumentation
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] INFO : Installing Rails 4 Error instrumentation
+[02/05/15 16:07:21 -0800 Gautams-MacBook-Pro.local (42135)] INFO : Finished instrumentation
+[02/05/15 16:41:26 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `boards' for #<User:0x0000010a1a4f68>
+[02/05/15 16:52:36 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template blogs/show, application/show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Gautam/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/app/views"
+
+[02/05/15 17:17:24 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `id' for nil:NilClass
+[02/05/15 17:18:45 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `id' for nil:NilClass
+[02/05/15 17:18:59 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `id' for nil:NilClass
+[02/05/15 17:20:08 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=1 [WHERE "subscriptions"."user_id" = ?]
+[02/05/15 17:20:10 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=1 [WHERE "subscriptions"."user_id" = ?]
+[02/05/15 17:20:58 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=1 [WHERE "subscriptions"."user_id" = ?]
+[02/05/15 17:26:24 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=1 [WHERE "subscriptions"."user_id" = ?]
+[02/05/15 17:26:24 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=1 [WHERE "subscriptions"."user_id" = ?]
+[02/05/15 17:31:16 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=1 [WHERE "subscriptions"."user_id" = ?]
+[02/05/15 17:31:17 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=1 [WHERE "subscriptions"."user_id" = ?]
+[02/05/15 17:31:28 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=1 [WHERE "subscriptions"."user_id" = ?]
+[02/05/15 17:33:48 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=1 [WHERE "subscriptions"."user_id" = ?]
+[02/05/15 17:36:01 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=2 [WHERE "subscriptions"."user_id" = ?]
+[02/05/15 17:37:08 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=23
+[02/05/15 17:40:23 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=23
+[02/05/15 20:22:21 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `id' for nil:NilClass
+[02/05/15 21:15:47 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/blogs/show, api/api/show, application/show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Gautam/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/app/views"
+
+[02/05/15 21:15:59 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template blogs/show, application/show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Gautam/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/app/views"
+
+[02/05/15 21:15:59 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template blogs/show, application/show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Gautam/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/app/views"
+
+[02/05/15 21:17:11 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/blogs/show, api/api/show, application/show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Gautam/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/app/views"
+
+[02/05/15 21:18:15 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: wrong argument type Blog (expected Module)
+[02/05/15 21:20:08 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/blogs/show, api/api/show, application/show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Gautam/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/app/views"
+
+[02/05/15 21:20:50 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template blogs/show, application/show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Gautam/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/app/views"
+
+[02/05/15 21:20:50 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template blogs/show, application/show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Gautam/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/app/views"
+
+[02/05/15 21:21:15 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/blogs/show, api/api/show, application/show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Gautam/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/app/views"
+
+[02/05/15 21:21:16 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/blogs/show, api/api/show, application/show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Gautam/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/app/views"
+
+[02/05/15 21:21:32 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `reverse_merge!' for [{:format=>:json}]:Array
+[02/05/15 21:22:25 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: wrong argument type Blog (expected Module)
+[02/05/15 22:05:55 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `blog_params' for #<SubscriptionsController:0x00000107086d00>
+[02/05/15 22:08:35 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Blog with 'id'=24
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] INFO : Starting the New Relic agent in "development" environment.
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] INFO : Environment: development
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] INFO : No known dispatcher detected.
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] INFO : Application: development
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] INFO : Installing ActiveJob instrumentation
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] INFO : Installing ActiveRecord 4 instrumentation
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] INFO : Installing Net instrumentation
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] INFO : Installing deferred Rack instrumentation
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] INFO : Installing Rack::Builder middleware instrumentation
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] INFO : Installing Rails 3+ middleware instrumentation
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] INFO : Installing Rails 4 Controller instrumentation
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] INFO : Installing Rails 4 view instrumentation
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] INFO : Installing Rails 4 Error instrumentation
+[02/05/15 23:36:52 -0800 Gautams-MacBook-Pro.local (44484)] INFO : Finished instrumentation
+[02/05/15 23:37:00 -0800 Gautams-MacBook-Pro.local (44486)] INFO : Starting the New Relic agent in "development" environment.
+[02/05/15 23:37:00 -0800 Gautams-MacBook-Pro.local (44486)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/05/15 23:37:00 -0800 Gautams-MacBook-Pro.local (44486)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/05/15 23:37:00 -0800 Gautams-MacBook-Pro.local (44486)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/05/15 23:37:00 -0800 Gautams-MacBook-Pro.local (44486)] INFO : Environment: development
+[02/05/15 23:37:00 -0800 Gautams-MacBook-Pro.local (44486)] INFO : No known dispatcher detected.
+[02/05/15 23:37:00 -0800 Gautams-MacBook-Pro.local (44486)] INFO : Application: development
+[02/05/15 23:37:00 -0800 Gautams-MacBook-Pro.local (44486)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/05/15 23:37:00 -0800 Gautams-MacBook-Pro.local (44486)] INFO : Installing ActiveJob instrumentation
+[02/05/15 23:37:00 -0800 Gautams-MacBook-Pro.local (44486)] INFO : Installing ActiveRecord 4 instrumentation
+[02/05/15 23:37:00 -0800 Gautams-MacBook-Pro.local (44486)] INFO : Installing Net instrumentation
+[02/05/15 23:37:00 -0800 Gautams-MacBook-Pro.local (44486)] INFO : Installing deferred Rack instrumentation
+[02/05/15 23:37:00 -0800 Gautams-MacBook-Pro.local (44486)] INFO : Installing Rack::Builder middleware instrumentation
+[02/05/15 23:37:00 -0800 Gautams-MacBook-Pro.local (44486)] INFO : Installing Rails 3+ middleware instrumentation
+[02/05/15 23:37:00 -0800 Gautams-MacBook-Pro.local (44486)] INFO : Installing Rails 4 Controller instrumentation
+[02/05/15 23:37:01 -0800 Gautams-MacBook-Pro.local (44486)] INFO : Installing Rails 4 view instrumentation
+[02/05/15 23:37:01 -0800 Gautams-MacBook-Pro.local (44486)] INFO : Installing Rails 4 Error instrumentation
+[02/05/15 23:37:01 -0800 Gautams-MacBook-Pro.local (44486)] INFO : Finished instrumentation
+[02/06/15 09:28:58 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `where?' for #<Subscription::ActiveRecord_Associations_CollectionProxy:0x0000010cc557f8>
+[02/06/15 09:28:58 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `where?' for #<Subscription::ActiveRecord_Associations_CollectionProxy:0x0000010a125560>
+[02/06/15 09:30:01 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `id' for {:blog_id=>1}:Hash
+[02/06/15 09:30:09 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `id' for #<Subscription::ActiveRecord_AssociationRelation:0x000001071adee0>
+[02/06/15 09:30:25 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: no implicit conversion of Symbol into Integer
+[02/06/15 09:31:03 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Subscription with 'id'=id [WHERE "subscriptions"."user_id" = ? AND "subscriptions"."blog_id" = ?]
+[02/06/15 09:32:52 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `id' for #<Subscription::ActiveRecord_AssociationRelation:0x0000010d1e3eb8>
+[02/06/15 09:37:44 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: wrong number of arguments (2 for 1)
+[02/06/15 09:38:25 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: wrong number of arguments (2 for 1)
+[02/06/15 09:47:56 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Subscription with 'id'=28
+[02/06/15 09:51:27 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Subscription with 'id'=33
+[02/06/15 09:54:49 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Subscription with 'id'=35
+[02/06/15 10:50:12 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `[]' for nil:NilClass
+[02/06/15 10:50:17 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `[]' for nil:NilClass
+[02/06/15 10:50:18 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `[]' for nil:NilClass
+[02/06/15 10:50:19 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `[]' for nil:NilClass
+[02/06/15 10:50:34 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `[]' for nil:NilClass
+[02/06/15 10:50:59 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `[]' for nil:NilClass
+[02/06/15 10:51:07 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `[]' for nil:NilClass
+[02/06/15 10:51:21 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `[]' for nil:NilClass
+[02/06/15 11:06:54 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `blog_path' for #<Api::BlogsController:0x0000010cbf1640>
+[02/06/15 11:08:57 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `blog_path' for #<Api::BlogsController:0x0000010a4a48f8>
+[02/06/15 11:19:49 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `blogs' for nil:NilClass
+[02/06/15 11:21:17 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `user' for #<#<Class:0x0000010d208dd0>:0x00000106c17490>
+[02/06/15 13:59:50 -0800 Gautams-MacBook-Pro.local (35604)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Subscription with 'id'=44
+[02/06/15 15:11:35 -0800 Gautams-MacBook-Pro.local (35604)] INFO : Starting Agent shutdown
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Starting the New Relic agent in "development" environment.
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] WARN : No configuration file found. Working directory = /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] WARN : Looked in these locations (based on defaults): /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/config/newrelic.yml, /Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr/newrelic.yml, /Users/Gautam/.newrelic/newrelic.yml, /Users/Gautam/newrelic.yml
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Environment: development
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Dispatcher: webrick
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Application: development
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Installing ActiveJob instrumentation
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Installing ActiveRecord 4 instrumentation
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Installing Net instrumentation
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Installing deferred Rack instrumentation
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Installing Rack::Builder middleware instrumentation
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Installing Rails 3+ middleware instrumentation
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Installing Rails 4 Controller instrumentation
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Installing Rails 4 view instrumentation
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Installing Rails 4 Error instrumentation
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Finished instrumentation
+[02/06/15 15:11:40 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Doing deferred dependency-detection before Rack startup
+[02/06/15 15:11:46 -0800 Gautams-MacBook-Pro.local (46885)] ERROR : Invalid license key, please contact support@newrelic.com
+[02/06/15 15:11:46 -0800 Gautams-MacBook-Pro.local (46885)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/08/15 21:49:27 -0800 Gautams-MacBook-Pro.local (46885)] INFO : Starting Agent shutdown
+[02/09/15 08:54:08 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Starting the New Relic agent in "development" environment.
+[02/09/15 08:54:08 -0800 Gautams-MacBook-Pro.local (56600)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/09/15 08:54:08 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Reading configuration from config/newrelic.yml (/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr)
+[02/09/15 08:54:08 -0800 Gautams-MacBook-Pro.local (56600)] INFO : New Relic Agent Developer Mode enabled.
+[02/09/15 08:54:08 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Environment: development
+[02/09/15 08:54:08 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Dispatcher: webrick
+[02/09/15 08:54:08 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Application: My Application (Development)
+[02/09/15 08:54:09 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Installing ActiveJob instrumentation
+[02/09/15 08:54:09 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Installing ActiveRecord 4 instrumentation
+[02/09/15 08:54:09 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Installing Net instrumentation
+[02/09/15 08:54:09 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Installing deferred Rack instrumentation
+[02/09/15 08:54:09 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Installing Rack::Builder middleware instrumentation
+[02/09/15 08:54:09 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Installing Rails 3+ middleware instrumentation
+[02/09/15 08:54:09 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Installing Rails 4 Controller instrumentation
+[02/09/15 08:54:09 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Installing Rails 4 view instrumentation
+[02/09/15 08:54:09 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Installing Rails 4 Error instrumentation
+[02/09/15 08:54:09 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Finished instrumentation
+[02/09/15 08:54:09 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Doing deferred dependency-detection before Rack startup
+[02/09/15 08:54:09 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793
+[02/09/15 08:56:40 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793
+[02/09/15 09:37:04 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Starting the New Relic agent in "development" environment.
+[02/09/15 09:37:04 -0800 Gautams-MacBook-Pro.local (56870)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/09/15 09:37:04 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Reading configuration from config/newrelic.yml (/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr)
+[02/09/15 09:37:04 -0800 Gautams-MacBook-Pro.local (56870)] INFO : New Relic Agent Developer Mode enabled.
+[02/09/15 09:37:04 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Environment: development
+[02/09/15 09:37:04 -0800 Gautams-MacBook-Pro.local (56870)] INFO : No known dispatcher detected.
+[02/09/15 09:37:04 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Application: My Application (Development)
+[02/09/15 09:37:05 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Installing ActiveJob instrumentation
+[02/09/15 09:37:05 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Installing ActiveRecord 4 instrumentation
+[02/09/15 09:37:05 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Installing Net instrumentation
+[02/09/15 09:37:05 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Installing deferred Rack instrumentation
+[02/09/15 09:37:05 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Installing Rack::Builder middleware instrumentation
+[02/09/15 09:37:05 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Installing Rails 3+ middleware instrumentation
+[02/09/15 09:37:05 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Installing Rails 4 Controller instrumentation
+[02/09/15 09:37:05 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Installing Rails 4 view instrumentation
+[02/09/15 09:37:05 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Installing Rails 4 Error instrumentation
+[02/09/15 09:37:05 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Finished instrumentation
+[02/09/15 09:37:05 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793
+[02/09/15 09:39:29 -0800 Gautams-MacBook-Pro.local (56878)] INFO : Starting Agent shutdown
+[02/09/15 09:39:29 -0800 Gautams-MacBook-Pro.local (56870)] INFO : Starting Agent shutdown
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Starting the New Relic agent in "development" environment.
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Reading configuration from config/newrelic.yml (/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project/Stumplr)
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : New Relic Agent Developer Mode enabled.
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Environment: development
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : No known dispatcher detected.
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Application: My Application (Development)
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Installing ActiveJob instrumentation
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Installing ActiveRecord 4 instrumentation
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Installing Net instrumentation
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Installing deferred Rack instrumentation
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Installing Rack::Builder middleware instrumentation
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Installing Rails 3+ middleware instrumentation
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Installing Rails 4 Controller instrumentation
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Installing Rails 4 view instrumentation
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Installing Rails 4 Error instrumentation
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Finished instrumentation
+[02/09/15 09:39:55 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793
+[02/09/15 13:28:23 -0800 Gautams-MacBook-Pro.local (57073)] INFO : Starting Agent shutdown
+[02/09/15 13:28:23 -0800 Gautams-MacBook-Pro.local (57065)] INFO : Starting Agent shutdown
+[02/09/15 13:29:32 -0800 Gautams-MacBook-Pro.local (56600)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793

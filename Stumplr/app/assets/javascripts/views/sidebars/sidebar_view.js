@@ -39,9 +39,7 @@ Stumplr.Views.SidebarView = Backbone.CompositeView.extend({
     var that = this;
     var attrs = $(event.target).serializeJSON();
     var term = encodeURI(attrs['search_term']);
-    // Stumplr.Collections.searchResultBlogs.fetch({
-    //   data: attrs})
-      Backbone.history.navigate('#/search/' + attrs['search_term'], { trigger: true });
+    Backbone.history.navigate('#/search/' + term, { trigger: true });
   },
 
   showPopover: function () {

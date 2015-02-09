@@ -1,3 +1,7 @@
-<div id="search-view-list">
+<% if (this.collection.models.length === 0 ) { %>
+  <label class="no-results">Sorry, there are no results for this query term.</label>
 
+  <%  } else {%>
+<div id="search-view-list">
 </div>
+<% } %>

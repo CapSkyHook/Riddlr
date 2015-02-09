@@ -7,6 +7,7 @@ Stumplr.Models.Blog = Backbone.Model.extend({
     }
     return this._posts;
   },
+  
   subscription: function () {
     if (!this._subscription) {
       this._subscription = new Stumplr.Models.Subscription();

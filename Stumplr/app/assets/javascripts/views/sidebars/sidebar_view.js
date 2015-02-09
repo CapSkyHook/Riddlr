@@ -6,6 +6,8 @@ Stumplr.Views.SidebarView = Backbone.CompositeView.extend({
   className: "sidebar-view",
 
   events: {
+    "focus .search-bar": "showPopover",
+    "focusout .search-bar": "hidePopover",
     "submit": "searchResults"
   },
 
@@ -30,28 +32,24 @@ Stumplr.Views.SidebarView = Backbone.CompositeView.extend({
     });
     this.addSubview('#sidebar-list', view);
   },
-  // this should go in a search view class, and then add each item to it's div
-  // addSearchResultItem: function (searchResultItem) {
-  //   var view = new Stumplr.Views.SearchResultItemView({
-  //     model: searchResultItem
-  //   });
-  //   this.$rootEl.html("Results!....I...wish...")
-  //   this.addSubview(this.$rootEl, view);
-  // },
-  //
-  // renderSearchResults: function () {
-  //   /// this will add the total search result to the view
-  //   //pass collection to this then render the view here, index view.
-  //
-  // },
+
 
   searchResults: function (event) {
     event.preventDefault();
     var that = this;
     var attrs = $(event.target).serializeJSON();
+    var term = encodeURI(attrs['search_term']);
     // Stumplr.Collections.searchResultBlogs.fetch({
     //   data: attrs})
-      Backbone.history.navigate('#/search/' + attrs['search_term'])
+      Backbone.history.navigate('#/search/' + attrs['search_term'], { trigger: true });
+  },
+
+  showPopover: function () {
+    $(".search-bar").popover();
+  },
+
+  hidePopover: function () {
+    $('.search-bar').popover('hide')
   }
 
 });

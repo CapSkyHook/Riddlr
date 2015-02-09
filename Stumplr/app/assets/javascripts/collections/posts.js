@@ -1,5 +1,6 @@
 Stumplr.Collections.Posts = Backbone.Collection.extend({
   model: Stumplr.Models.Post,
+  
   url: '/posts',
 
   getOrFetch: function (id) {

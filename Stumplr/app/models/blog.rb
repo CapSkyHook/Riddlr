@@ -28,7 +28,6 @@ class Blog < ActiveRecord::Base
       if search_term.include?("+")
         search_term.gsub!(/[+]/, ' ')
         search_results << Blog.where("LOWER(title) ~ lower(?)", search_term)
-        p search_results
       else
         search_results << Blog.where("LOWER(title) ~ lower(?)", search_term)
       end

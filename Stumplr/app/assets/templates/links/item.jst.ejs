@@ -1,22 +1,26 @@
 
-<a class="" data-toggle="modal" data-target="#post-show-modal">
-  Launch demo modal
+<a class="link-modal" data-toggle="modal" data-target="#link-show-modal-<%= link.id %>">
   <%= link.escape('id') %>
 </a>
 
 <!-- Modal -->
-<div class="modal fade" id="post-show-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="link-show-modal-<%= link.id %>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
+        <a class="navigate-link">Go To Blog!</a>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Link Title
-          <%= link.escape('title') %>
-          </h4>
+        <div class="text-center">
+          <h4 class="modal-title" id="myModalLabel">
+            <%= link.escape('title') %>
+            </h4>
+        </div>
+
       </div>
       <div class="modal-body">
-        Link Body
-
+        <% if (link.get('filepicker_url')) { %>
+          <img src="<%=link.get('filepicker_url') %>" id="link-image" />
+          <% } %>
         <%= link.escape('body') %>
       </div>
       <div class="modal-footer">

@@ -5,8 +5,9 @@ class BlogsController < ApplicationController
     if @blog.save
       redirect_to "/##{blog_path(@blog)}"
     else
-      flash.now[:errors] = @user.errors.full_messages
-, status: :unprocessable_entity
+      render json: {message: "something went wrong"}
+      # flash.now[:errors]
+      # flash.now[:errors] = @user.errors.full_messages, status: :unprocessable_entity
     end
   end
 

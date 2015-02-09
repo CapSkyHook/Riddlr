@@ -5,7 +5,6 @@ Stumplr.Models.Blog = Backbone.Model.extend({
     if (!this._posts) {
       this._posts = new Stumplr.Collections.Posts([], { blog: this });
     }
-
     return this._posts;
   },
   subscription: function () {

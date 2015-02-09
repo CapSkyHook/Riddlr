@@ -19,4 +19,21 @@ class Blog < ActiveRecord::Base
             foreign_key: :owner_id)
   has_many :posts
   has_many :subscriptions
+
+
+  def self.search(search_term)
+    search_terms = search_term.split(" ")
+    search_results = []
+    search_terms.each do |search_term|
+      if search_term.include?("+")
+        search_term.gsub!(/[+]/, ' ')
+        search_results << Blog.where("LOWER(title) ~ lower(?)", search_term)
+        p search_results
+      else
+        search_results << Blog.where("LOWER(title) ~ lower(?)", search_term)
+      end
+    end
+    final_results = search_results.flatten!.uniq..order(:created_at)
+    return search_results
+  end
 end

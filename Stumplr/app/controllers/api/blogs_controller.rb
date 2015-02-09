@@ -5,7 +5,7 @@ class Api::BlogsController < Api::ApiController
     if @blog.save
       redirect_to "/#/" + "#{api_blog_path(@blog)}"[5..-1]
     else
-      render json: @blog.errors.full_messages, status: :unprocessable_entity
+      flash.now[:errors] = @blog.errors.full_messages
     end
   end
 
@@ -17,7 +17,7 @@ class Api::BlogsController < Api::ApiController
 
   def index
     if params[:search_term]
-      @blogs = Blog.where("LOWER(title) ~ lower(?)", params[:search_term])
+      @blogs = Blog.search(params[:search_term])
     else
       @blogs = current_user.blogs.uniq
     end
@@ -26,7 +26,7 @@ class Api::BlogsController < Api::ApiController
 
   def show
     @blog = Blog.includes(:posts).find(params[:id])
-    render :show
+     render :show
   end
 
   private

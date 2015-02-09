@@ -9,7 +9,7 @@ Stumplr.Routers.Router = Backbone.Router.extend({
   routes: {
     "": "feedView",
     "blogs/:id": "blogsShow",
-    "search/:search_term": "search"
+    "search/:search_term": "searchResultsView"
   },
 
   feedView: function () {
@@ -22,7 +22,13 @@ Stumplr.Routers.Router = Backbone.Router.extend({
     this._swapView(indexView);
   },
 
-  search: function (search_term) {
+  searchResultsView: function (search_term) {
+    Stumplr.Collections.searchResultBlogs.fetch({ data: {search_term: search_term }});
+    var searchResultView = new Stumplr.Views.SearchResultView({
+      collection: Stumplr.Collections.searchResultBlogs
+    });
+
+    this._swapView(searchResultView);
 
   },
 

@@ -5,7 +5,8 @@ class BlogsController < ApplicationController
     if @blog.save
       redirect_to "/##{blog_path(@blog)}"
     else
-      render json: @blog.errors.full_messages, status: :unprocessable_entity
+      flash.now[:errors] = @user.errors.full_messages
+, status: :unprocessable_entity
     end
   end
 
@@ -26,7 +27,7 @@ class BlogsController < ApplicationController
 
   def show
     @blog = current_user.blogs.includes(:posts).find(params[:id])
-    render :show
+     render :show
   end
 
   private

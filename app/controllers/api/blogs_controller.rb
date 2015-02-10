@@ -5,7 +5,7 @@ class Api::BlogsController < Api::ApiController
     if @blog.save
       redirect_to "/#/" + "#{api_blog_path(@blog)}"[5..-1]
     else
-      render json: @post.errors.full_messages, status: :unprocessable_entity
+      render json: @blog.errors.full_messages, status: :unprocessable_entity
     end
   end
 

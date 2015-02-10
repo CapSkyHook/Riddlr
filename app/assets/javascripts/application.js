@@ -24,3 +24,10 @@
 //= require_tree ./views
 //= require_tree ./routers
 //= require_tree .
+
+$(function () {
+  $('#new-blog-form').on('ajax:error', function (event, response) {
+    // console.log(response.responseJSON);
+    $('.new-blog-errors').html(response.responseJSON)
+  });
+});

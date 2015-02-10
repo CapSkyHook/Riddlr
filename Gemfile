@@ -35,7 +35,8 @@ gem 'newrelic_rpm'
 
 gem 'rails_12factor'
 
-gem 'twilio-ruby', '~> 3.12'
+gem 'twilio-ruby'
+gem 'pusher'
 
 
 # Use ActiveModel has_secure_password

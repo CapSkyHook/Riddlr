@@ -48,6 +48,26 @@ class User < ActiveRecord::Base
     self.session_token
   end
 
+  def purchase_num=(val)
+
+    if val == "true"
+      account_sid = ENV["twilio_account_id"]
+      auth_token = ENV["twilio_auth_token"]
+      @client = Twilio::REST::Client.new account_sid, auth_token
+
+      @numbers = @client.account.available_phone_numbers.get('US').local.list(:area_code => "510")
+
+      # Purchase the number
+      @number = @numbers[0]
+      incoming_number = @client.account.incoming_phone_numbers.create(
+        phone_number: @number.phone_number,
+        sms_url: "https://stumplr.herokuapp.com/api/posts",
+        sms_method: 'POST'
+      )
+      self.phone_number = incoming_number.phone_number
+    end
+  end
+
   protected
 
   def ensure_session_token

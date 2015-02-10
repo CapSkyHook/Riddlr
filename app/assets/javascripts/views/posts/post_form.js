@@ -22,14 +22,19 @@ Stumplr.Views.PostForm = Backbone.CompositeView.extend({
     this.model.set(attrs.post);
     this.model.set('filepicker_url', this._imageUrl);
     var $modal = this.$('#modal-form');
-    $modal.on('hidden.bs.modal', function(){
-      that.model.save({}, {
-        success: function (){
-            that.collection.add(that.model, { merge: true });
-        }.bind(this)
-      });
+    that.model.save({}, {
+      success: function (){
+        $modal.on('hidden.bs.modal', function(){
+        that.collection.add(that.model, { merge: true });
+        })
+        $modal.modal('hide');
+      },
+
+      error: function (model, response) {
+        that.$('.errors').html(response.responseJSON)
+      }
     });
-    $modal.modal('hide');
+
   },
 
   render: function () {

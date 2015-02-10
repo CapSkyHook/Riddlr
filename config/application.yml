@@ -11,3 +11,5 @@
 #   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
 
 filepicker_key: ANyuhMjfwQnWccmRfjymjz
+twilio_account_id: AC98b4fdcd63bbb15e6ffb8e3a14ccd6d7
+twilio_auth_token: c2e737c55501a8d606e05d9a5e8cbf75

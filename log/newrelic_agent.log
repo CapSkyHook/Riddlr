@@ -957,3 +957,7 @@
 [02/09/15 17:06:30 -0800 Gautams-MacBook-Pro.local (61613)] INFO : Installing Rails 4 Error instrumentation
 [02/09/15 17:06:30 -0800 Gautams-MacBook-Pro.local (61613)] INFO : Finished instrumentation
 [02/09/15 17:06:31 -0800 Gautams-MacBook-Pro.local (61613)] INFO : Starting Agent shutdown
+[02/09/15 23:00:57 -0800 Gautams-MacBook-Pro.local (60655)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[02/09/15 23:00:57 -0800 Gautams-MacBook-Pro.local (60655)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.000932 seconds: getaddrinfo: nodename nor servname provided, or not known
+[02/09/15 23:02:10 -0800 Gautams-MacBook-Pro.local (60655)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[02/09/15 23:02:10 -0800 Gautams-MacBook-Pro.local (60655)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 6.00232 seconds: Connection reset by peer - SSL_connect

@@ -21,6 +21,7 @@ Stumplr.Views.PostShow = Backbone.CompositeView.extend({
     });
 
     this.$el.html(renderedContent);
+    this.addProfilePhoto();
     this.$(".post-pic").attr("src", this.model.get('filepicker_url'));
     return this;
   },
@@ -38,6 +39,13 @@ Stumplr.Views.PostShow = Backbone.CompositeView.extend({
       collection: this.model.collection
     });
     this.$("#modal-form-wrapper").html(editFormView.render().$el);
+  },
+
+  addProfilePhoto: function () {
+    if (this.model.get('blog_picture_url')) {
+      this.$(".post-blog-image").attr("style", "width:75px;height:75px")
+      this.$(".post-blog-image").attr("src", this.model.get('blog_picture_url'))
+    }
   }
 
 })

@@ -8,5 +8,5 @@ end
 
 
 json.posts @blog.posts do |post|
-  json.extract! post, :id, :title, :user_id, :blog_id, :body, :filepicker_url, :content_type, :updated_at
+  json.extract! post, :id, :title, :user_id, :blog_id, :body, :filepicker_url, :content_type, :updated_at, :blog_picture_url
 end

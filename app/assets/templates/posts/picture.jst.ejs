@@ -21,7 +21,7 @@
           <div class="form-group">
             <input type="hidden" class="form-control content-type" id="content-type" name="post[content_type]" value="Picture">
             <label for="message-text" class="control-label">Content</label>
-            <textarea class="form-control" id="message-text" name="post[body]" value="<%= post.get('body') %>"><%= post.get('body') %></textarea>
+            <textarea class="form-control" id="message-text" name="post[body]" value="<%= post.get('body') %>" placeholder="ex. Riddles"><%= post.get('body') %></textarea>
           </div>
           <button type="button" class="btn btn-close" data-dismiss="modal">Close</button>
           <input type="submit" id="form_id" class="btn btn-primary" value="Submit">

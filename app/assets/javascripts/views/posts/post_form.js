@@ -44,7 +44,7 @@ Stumplr.Views.PostForm = Backbone.CompositeView.extend({
     }
     this.$el.html(renderedContent);
     if(this.recipient === "Picture") {
-        var element = this.$('.pick-image-input')[0];
+        var element = this.$('.pick-blog-image-input')[0];
         element.type="filepicker-dragdrop";
         element.onchange = function(e){
           console.log(JSON.stringify(e.fpfile));

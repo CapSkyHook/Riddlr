@@ -10,6 +10,7 @@ class PostsController < ApplicationController
     def create
       @post = current_blog.posts.new(post_params)
       @post.user_id = current_blog.owner_id
+      @post.blog_picture_url = current_blog.profile_image
 
       if @post.save
         render json: @post

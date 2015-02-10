@@ -10,10 +10,33 @@ Stumplr.Models.Blog = Backbone.Model.extend({
 
   subscription: function () {
     if (!this._subscription) {
-      this._subscription = new Stumplr.Models.Subscription();
+      this._subscription = new Stumplr.Models.Subscription({blog_id: this.id});
     }
 
     return this._subscription;
+  },
+
+  updateSubscriptionCount: function(diff){
+    var old_count = this.get('subscriptions_count');
+    this.set('subscriptions_count', old_count + diff);
+  },
+
+  subscribe: function(){
+    var that = this;
+    this.subscription().save({}, {success: function(){
+      that.updateSubscriptionCount(1);
+    }});
+  },
+
+  unsubscribe: function(){
+    var that = this;
+    this.subscription().destroy({
+      success: function(){
+        delete that._subscription;
+        that.updateSubscriptionCount(-1);
+      }
+    });
+
   },
 
   parse: function (response) {

@@ -5,7 +5,7 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
   className: 'blog-show',
 
   initialize: function () {
-    this.listenTo(this.model, "sync add", this.render);
+    this.listenTo(this.model, "sync add change:subscriptions_count", this.render);
     this.listenTo(this.model.posts(), "new", this.closeModal);
     this.collection = this.model.posts();
     this.listenTo(this.collection, 'add', this.addPost);
@@ -51,8 +51,7 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
 
   addSubscribeButton: function () {
     var view = new Stumplr.Views.SubscribeButtonView({
-      model: this.model.subscription(),
-      blog_id: this.model.id
+      model: this.model
     });
     this.addSubview('#subscribe-button', view);
   },

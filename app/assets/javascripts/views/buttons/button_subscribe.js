@@ -8,12 +8,14 @@ Stumplr.Views.SubscribeButtonView = Backbone.View.extend({
     "click button.subscribed-button": "deleteSubscription"
   },
 
-  initialize: function (options) {
-    this._blog_id = options.blog_id;
-  },
+  // initialize: function (options) {
+  //   this._blog_id = options.blog.id;
+  //   this.blog = options.blog;
+  // },
 
   render: function () {
-    this._subscribed = !this.model.isNew();
+    var subscription = this.model.subscription();
+    this._subscribed = !subscription.isNew();
 
     var renderContent = this.template({
       subscribed: this._subscribed
@@ -24,23 +26,31 @@ Stumplr.Views.SubscribeButtonView = Backbone.View.extend({
   },
 
   addSubscription: function () {
-    var that = this;
-    this.model.save({}, {
-      success: function () {
-        that.render();
-      }
-    });
+    this.model.subscribe();
+    // var that = this;
+    // var subscription = this.model.subscription();
+    // subscription.save({}, {
+    //   success: function () {
+    //     that.model.subscribe();
+    //     var old_count = that.blog.get('subscriptions_count');
+    //     that.blog.set('subscriptions_count', old_count + 1);
+    //   }
+    // });
+
   },
 
   deleteSubscription: function () {
-    var that = this;
-    var blog_id = this.model.get('blog_id');
-    this.model.destroy({
-      success: function () {
-        that.model = new Stumplr.Models.Subscription({ blog_id: blog_id });
-        that.render();
-      }
-    })
+    this.model.unsubscribe();
+    // var that = this;
+    // var subscription = this.model.subscription();
+    // subscription.destroy({
+    //   success: function () {
+    //     that.model.unsubscribe();
+    //     that.render();
+    //     var old_count = that.blog.get('subscriptions_count');
+    //     that.blog.set('subscriptions_count', old_count - 1);
+    //   }
+    // })
   }
 
 });

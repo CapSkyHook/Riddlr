@@ -12,7 +12,7 @@
 class Subscription < ActiveRecord::Base
   validates :blog_id, :user_id, presence: true
 
-  belongs_to :blog
+  belongs_to :blog, counter_cache: true
 
   belongs_to :user
 end

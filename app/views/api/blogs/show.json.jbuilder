@@ -1,5 +1,6 @@
 json.extract! @blog, :id, :title, :owner_id, :created_at, :updated_at, :profile_image
 json.posts_count @blog.posts_count || 0
+json.subscriptions_count @blog.subscriptions_count || 0
 
 if current_user.subscribed_blogs.include?(@blog)
   subscription = current_user.subscriptions.where({ blog_id: @blog.id })

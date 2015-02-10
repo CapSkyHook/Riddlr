@@ -10,10 +10,10 @@ Stumplr.Views.PostShow = Backbone.CompositeView.extend({
 
   },
 
-  initialize: function () {
+  initialize: function (options) {
     this.listenTo(this.model, "sync", this.render);
     this.listenTo(this.model.collection, "new", this.closeModal);
-
+    this.blog = options.blog;
   },
 
   render: function () {
@@ -26,7 +26,7 @@ Stumplr.Views.PostShow = Backbone.CompositeView.extend({
         post: this.model
       });
     }
-    
+
     this.$el.html(renderedContent);
     this.addProfilePhoto();
     this.$(".post-pic").attr("src", this.model.get('filepicker_url'));
@@ -35,7 +35,12 @@ Stumplr.Views.PostShow = Backbone.CompositeView.extend({
 
   destroyPost: function (event) {
     event.preventDefault();
-    this.model.destroy();
+    var that = this;
+    this.model.destroy({
+      success: function () {
+        that.blog.deletePost();
+      }
+    });
   },
 
   editPost: function (event) {

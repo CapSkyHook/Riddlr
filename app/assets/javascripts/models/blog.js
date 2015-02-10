@@ -16,9 +16,25 @@ Stumplr.Models.Blog = Backbone.Model.extend({
     return this._subscription;
   },
 
+  updateCount: function (attr, diff){
+    var old_count = this.get(attr);
+    this.set(attr, old_count + diff)
+  },
+
+  updatePostsCount: function(diff){
+    this.updateCount('posts_count', diff)
+  },
+
+  addPost: function(){
+    this.updatePostsCount(1);
+  },
+
+  deletePost: function(){
+    this.updatePostsCount(-1);
+  },
+
   updateSubscriptionCount: function(diff){
-    var old_count = this.get('subscriptions_count');
-    this.set('subscriptions_count', old_count + diff);
+    this.updateCount('subscriptions_count', diff)
   },
 
   subscribe: function(){

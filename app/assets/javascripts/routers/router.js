@@ -33,7 +33,6 @@ Stumplr.Routers.Router = Backbone.Router.extend({
   },
 
   blogsShow: function (id) {
-
     var blog = Stumplr.Collections.blogs.getOrFetch(id);
     var view = new Stumplr.Views.BlogShow({
       model: blog
@@ -44,7 +43,7 @@ Stumplr.Routers.Router = Backbone.Router.extend({
   },
 
   sidebarView: function () {
-    var ownedBlogs = new Stumplr.Collections.Blogs();
+    var ownedBlogs = Stumplr.Collections.blogs;
     ownedBlogs.fetch();
     var sidebarView = new Stumplr.Views.SidebarView({
       collection: ownedBlogs,

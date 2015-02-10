@@ -4,16 +4,15 @@ Stumplr.Views.SidebarItemView = Backbone.CompositeView.extend({
 
 
   initialize: function () {
-    this.listenTo(this.model, "sync", this.render)
-    this.listenTo(this.collection, "add", this.render)
+    this.listenTo(this.model, "sync change:posts_count", this.render);
+    // this.listenTo(this.model.posts(), "add", this.render)
   },
 
   render: function () {
     var renderedContent = this.template({
-      blog: this.model,
-      posts: this.collection
+      blog: this.model
     });
-
+    
     this.$el.html(renderedContent);
 
     return this;

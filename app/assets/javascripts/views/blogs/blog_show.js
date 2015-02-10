@@ -25,7 +25,7 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
     var view = new Stumplr.Views.PostForm({
       recipient: recipient,
       model: newPost,
-      collection: this.model.posts()
+      blog: this.model
     });
     this.$el.find('#modal-form-wrapper').html(view.render().$el);
   },
@@ -34,6 +34,7 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
     var renderedContent = this.template({
       blog: this.model
     });
+    
     this.$el.html(renderedContent);
     this.addProfilePhoto();
     this.renderPosts();
@@ -44,7 +45,8 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
 
   addPost: function (post) {
     var view = new Stumplr.Views.PostShow({
-      model: post
+      model: post,
+      blog: this.model
     });
     this.addSubview('#posts', view);
   },

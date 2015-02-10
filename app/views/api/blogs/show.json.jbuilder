@@ -1,4 +1,4 @@
-json.extract! @blog, :id, :title, :owner_id, :created_at, :updated_at
+json.extract! @blog, :id, :title, :owner_id, :created_at, :updated_at, :profile_image
 
 if current_user.subscribed_blogs.include?(@blog)
   subscription = current_user.subscriptions.where({ blog_id: @blog.id })

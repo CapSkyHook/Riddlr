@@ -35,6 +35,7 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
       blog: this.model
     });
     this.$el.html(renderedContent);
+    this.addProfilePhoto();
     this.renderPosts();
     this.addSubscribeButton();
     return this;
@@ -58,5 +59,11 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
 
   renderPosts: function () {
     this.model.posts().each(this.addPost.bind(this));
+  },
+
+  addProfilePhoto: function () {
+    if (this.model.get('profile_image')) {
+      $(".blog-profile-picture").attr("src", this.model.get('profile_image'))
+    }
   }
 });

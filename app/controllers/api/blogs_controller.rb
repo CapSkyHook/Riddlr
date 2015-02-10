@@ -33,7 +33,7 @@ class Api::BlogsController < Api::ApiController
 
   private
   def blog_params
-    params.require(:blog).permit(:title, :owner_id)
+    params.require(:blog).permit(:title, :owner_id, :profile_image)
   end
 end
 

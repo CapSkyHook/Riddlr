@@ -980,3 +980,23 @@
 [02/10/15 10:01:29 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Finished instrumentation
 [02/10/15 10:01:29 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793
 [02/10/15 10:35:06 -0800 Gautams-MacBook-Pro.local (64533)] INFO : Starting Agent shutdown
+[02/10/15 10:51:47 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Starting the New Relic agent in "development" environment.
+[02/10/15 10:51:47 -0800 Gautams-MacBook-Pro.local (64725)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/10/15 10:51:47 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Reading configuration from config/newrelic.yml (/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project)
+[02/10/15 10:51:47 -0800 Gautams-MacBook-Pro.local (64725)] INFO : New Relic Agent Developer Mode enabled.
+[02/10/15 10:51:47 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Environment: development
+[02/10/15 10:51:47 -0800 Gautams-MacBook-Pro.local (64725)] INFO : No known dispatcher detected.
+[02/10/15 10:51:47 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Application: My Application (Development)
+[02/10/15 10:51:48 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Installing ActiveJob instrumentation
+[02/10/15 10:51:48 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Installing ActiveRecord 4 instrumentation
+[02/10/15 10:51:48 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Installing Net instrumentation
+[02/10/15 10:51:48 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Installing deferred Rack instrumentation
+[02/10/15 10:51:48 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Installing Rack::Builder middleware instrumentation
+[02/10/15 10:51:48 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Installing Rails 3+ middleware instrumentation
+[02/10/15 10:51:48 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Installing Rails 4 Controller instrumentation
+[02/10/15 10:51:48 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Installing Rails 4 view instrumentation
+[02/10/15 10:51:48 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Installing Rails 4 Error instrumentation
+[02/10/15 10:51:48 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Finished instrumentation
+[02/10/15 10:51:48 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Starting Agent shutdown
+[02/10/15 10:56:03 -0800 Gautams-MacBook-Pro.local (64772)] INFO : Starting Agent shutdown
+[02/10/15 11:15:57 -0800 Gautams-MacBook-Pro.local (64818)] INFO : Starting Agent shutdown

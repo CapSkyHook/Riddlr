@@ -25,6 +25,7 @@ class User < ActiveRecord::Base
   has_many :posts
   has_many :subscriptions
   has_many :subscribed_blogs, through: :subscriptions, source: :blog
+  has_many :likes
 
   attr_reader :password
 

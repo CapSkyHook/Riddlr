@@ -14,6 +14,9 @@ class SubscriptionsController < ApplicationController
     render json: {}
   end
 
+  def index
+  end
+
   private
 
   def subscription_params

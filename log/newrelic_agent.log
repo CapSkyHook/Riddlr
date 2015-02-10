@@ -1000,3 +1000,143 @@
 [02/10/15 10:51:48 -0800 Gautams-MacBook-Pro.local (64725)] INFO : Starting Agent shutdown
 [02/10/15 10:56:03 -0800 Gautams-MacBook-Pro.local (64772)] INFO : Starting Agent shutdown
 [02/10/15 11:15:57 -0800 Gautams-MacBook-Pro.local (64818)] INFO : Starting Agent shutdown
+[02/10/15 11:27:17 -0800 Gautams-MacBook-Pro.local (65064)] INFO : Starting Agent shutdown
+[02/10/15 11:29:35 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Starting the New Relic agent in "development" environment.
+[02/10/15 11:29:35 -0800 Gautams-MacBook-Pro.local (65092)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/10/15 11:29:35 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Reading configuration from config/newrelic.yml (/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project)
+[02/10/15 11:29:36 -0800 Gautams-MacBook-Pro.local (65092)] INFO : New Relic Agent Developer Mode enabled.
+[02/10/15 11:29:36 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Environment: development
+[02/10/15 11:29:36 -0800 Gautams-MacBook-Pro.local (65092)] INFO : No known dispatcher detected.
+[02/10/15 11:29:36 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Application: My Application (Development)
+[02/10/15 11:29:36 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Installing ActiveJob instrumentation
+[02/10/15 11:29:36 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Installing ActiveRecord 4 instrumentation
+[02/10/15 11:29:36 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Installing Net instrumentation
+[02/10/15 11:29:36 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Installing deferred Rack instrumentation
+[02/10/15 11:29:36 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Installing Rack::Builder middleware instrumentation
+[02/10/15 11:29:36 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Installing Rails 3+ middleware instrumentation
+[02/10/15 11:29:36 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Installing Rails 4 Controller instrumentation
+[02/10/15 11:29:36 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Installing Rails 4 view instrumentation
+[02/10/15 11:29:36 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Installing Rails 4 Error instrumentation
+[02/10/15 11:29:36 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Finished instrumentation
+[02/10/15 11:29:37 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793
+[02/10/15 11:29:46 -0800 Gautams-MacBook-Pro.local (65092)] INFO : Starting Agent shutdown
+[02/10/15 11:29:52 -0800 Gautams-MacBook-Pro.local (60386)] INFO : Starting Agent shutdown
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Starting the New Relic agent in "development" environment.
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Reading configuration from config/newrelic.yml (/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project)
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : New Relic Agent Developer Mode enabled.
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Environment: development
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : No known dispatcher detected.
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Application: My Application (Development)
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Installing ActiveJob instrumentation
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Installing ActiveRecord 4 instrumentation
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Installing Net instrumentation
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Installing deferred Rack instrumentation
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Installing Rack::Builder middleware instrumentation
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Installing Rails 3+ middleware instrumentation
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Installing Rails 4 Controller instrumentation
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Installing Rails 4 view instrumentation
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Installing Rails 4 Error instrumentation
+[02/10/15 11:30:00 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Finished instrumentation
+[02/10/15 11:30:10 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793
+[02/10/15 11:30:11 -0800 Gautams-MacBook-Pro.local (65109)] INFO : Starting Agent shutdown
+[02/10/15 11:30:16 -0800 Gautams-MacBook-Pro.local (61664)] INFO : Starting Agent shutdown
+[02/10/15 11:30:17 -0800 Gautams-MacBook-Pro.local (60655)] INFO : Starting Agent shutdown
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Starting the New Relic agent in "development" environment.
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Reading configuration from config/newrelic.yml (/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project)
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : New Relic Agent Developer Mode enabled.
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Environment: development
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : No known dispatcher detected.
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Application: My Application (Development)
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Installing ActiveJob instrumentation
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Installing ActiveRecord 4 instrumentation
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Installing Net instrumentation
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Installing deferred Rack instrumentation
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Installing Rack::Builder middleware instrumentation
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Installing Rails 3+ middleware instrumentation
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Installing Rails 4 Controller instrumentation
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Installing Rails 4 view instrumentation
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Installing Rails 4 Error instrumentation
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Finished instrumentation
+[02/10/15 11:30:25 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793
+[02/10/15 11:30:26 -0800 Gautams-MacBook-Pro.local (65125)] INFO : Starting Agent shutdown
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Starting the New Relic agent in "development" environment.
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Reading configuration from config/newrelic.yml (/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project)
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : New Relic Agent Developer Mode enabled.
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Environment: development
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Dispatcher: webrick
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Application: My Application (Development)
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Installing ActiveJob instrumentation
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Installing ActiveRecord 4 instrumentation
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Installing Net instrumentation
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Installing deferred Rack instrumentation
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Installing Rack::Builder middleware instrumentation
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Installing Rails 3+ middleware instrumentation
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Installing Rails 4 Controller instrumentation
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Installing Rails 4 view instrumentation
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Installing Rails 4 Error instrumentation
+[02/10/15 11:31:05 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Finished instrumentation
+[02/10/15 11:31:06 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Doing deferred dependency-detection before Rack startup
+[02/10/15 11:31:06 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793
+[02/10/15 11:37:36 -0800 Gautams-MacBook-Pro.local (65145)] INFO : Starting Agent shutdown
+[02/10/15 11:37:44 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Starting the New Relic agent in "development" environment.
+[02/10/15 11:37:44 -0800 Gautams-MacBook-Pro.local (65207)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/10/15 11:37:44 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Reading configuration from config/newrelic.yml (/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project)
+[02/10/15 11:37:44 -0800 Gautams-MacBook-Pro.local (65207)] INFO : New Relic Agent Developer Mode enabled.
+[02/10/15 11:37:44 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Environment: development
+[02/10/15 11:37:44 -0800 Gautams-MacBook-Pro.local (65207)] INFO : No known dispatcher detected.
+[02/10/15 11:37:44 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Application: My Application (Development)
+[02/10/15 11:37:44 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Installing ActiveJob instrumentation
+[02/10/15 11:37:44 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Installing ActiveRecord 4 instrumentation
+[02/10/15 11:37:44 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Installing Net instrumentation
+[02/10/15 11:37:45 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Installing deferred Rack instrumentation
+[02/10/15 11:37:45 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Installing Rack::Builder middleware instrumentation
+[02/10/15 11:37:45 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Installing Rails 3+ middleware instrumentation
+[02/10/15 11:37:45 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Installing Rails 4 Controller instrumentation
+[02/10/15 11:37:45 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Installing Rails 4 view instrumentation
+[02/10/15 11:37:45 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Installing Rails 4 Error instrumentation
+[02/10/15 11:37:45 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Finished instrumentation
+[02/10/15 11:37:46 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793
+[02/10/15 11:37:46 -0800 Gautams-MacBook-Pro.local (65207)] INFO : Starting Agent shutdown
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Starting the New Relic agent in "development" environment.
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Reading configuration from config/newrelic.yml (/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project)
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : New Relic Agent Developer Mode enabled.
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Environment: development
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Dispatcher: webrick
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Application: My Application (Development)
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Installing ActiveJob instrumentation
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Installing ActiveRecord 4 instrumentation
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Installing Net instrumentation
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Installing deferred Rack instrumentation
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Installing Rack::Builder middleware instrumentation
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Installing Rails 3+ middleware instrumentation
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Installing Rails 4 Controller instrumentation
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Installing Rails 4 view instrumentation
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Installing Rails 4 Error instrumentation
+[02/10/15 11:37:53 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Finished instrumentation
+[02/10/15 11:37:54 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Doing deferred dependency-detection before Rack startup
+[02/10/15 11:37:54 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793
+[02/10/15 11:42:27 -0800 Gautams-MacBook-Pro.local (65223)] INFO : Starting Agent shutdown
+[02/10/15 11:44:58 -0800 Gautams-MacBook-Pro.local (65288)] INFO : Starting Agent shutdown
+[02/10/15 11:47:52 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Starting the New Relic agent in "development" environment.
+[02/10/15 11:47:52 -0800 Gautams-MacBook-Pro.local (65462)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/10/15 11:47:52 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Reading configuration from config/newrelic.yml (/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project)
+[02/10/15 11:47:52 -0800 Gautams-MacBook-Pro.local (65462)] INFO : New Relic Agent Developer Mode enabled.
+[02/10/15 11:47:52 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Environment: development
+[02/10/15 11:47:52 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Dispatcher: webrick
+[02/10/15 11:47:52 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Application: My Application (Development)
+[02/10/15 11:47:52 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Installing ActiveJob instrumentation
+[02/10/15 11:47:52 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Installing ActiveRecord 4 instrumentation
+[02/10/15 11:47:52 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Installing Net instrumentation
+[02/10/15 11:47:52 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Installing deferred Rack instrumentation
+[02/10/15 11:47:52 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Installing Rack::Builder middleware instrumentation
+[02/10/15 11:47:52 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Installing Rails 3+ middleware instrumentation
+[02/10/15 11:47:52 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Installing Rails 4 Controller instrumentation
+[02/10/15 11:47:53 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Installing Rails 4 view instrumentation
+[02/10/15 11:47:53 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Installing Rails 4 Error instrumentation
+[02/10/15 11:47:53 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Finished instrumentation
+[02/10/15 11:47:53 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Doing deferred dependency-detection before Rack startup
+[02/10/15 11:47:53 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793

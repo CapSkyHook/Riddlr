@@ -18,7 +18,7 @@ class Post < ActiveRecord::Base
   validates :user_id, :blog_id, :title, presence: true
 
   belongs_to :user
-  belongs_to :blog
+  belongs_to :blog, counter_cache: true
 
   has_many :likes
 end

@@ -30,4 +30,11 @@ $(function () {
     // console.log(response.responseJSON);
     $('.new-blog-errors').html(response.responseJSON)
   });
+  $('#new-blog-form').on('ajax:success', function (event, response) {
+    // console.log(response.responseJSON);
+    $('#myModal').modal('hide');
+    $('#myModal').on('hidden.bs.modal', function () {
+      Backbone.history.navigate("/blogs/" + response.id, { trigger: true })
+    })
+  });
 });

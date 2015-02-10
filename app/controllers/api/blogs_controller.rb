@@ -3,7 +3,7 @@ class Api::BlogsController < Api::ApiController
     @blog = current_user.blogs.new(blog_params)
 
     if @blog.save
-      redirect_to "/#/" + "#{api_blog_path(@blog)}"[5..-1]
+      render json: @blog # "/#/" + "#{api_blog_path(@blog)}"[5..-1]
     else
       render json: @blog.errors.full_messages, status: :unprocessable_entity
     end

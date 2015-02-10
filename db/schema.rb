@@ -11,17 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150210183506) do
+ActiveRecord::Schema.define(version: 20150210194458) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "blogs", force: true do |t|
-    t.string   "title",         null: false
-    t.integer  "owner_id",      null: false
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.string   "title",               null: false
+    t.integer  "owner_id",            null: false
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
     t.string   "profile_image"
+    t.integer  "posts_count"
+    t.integer  "subscriptions_count"
   end
 
   add_index "blogs", ["title"], name: "index_blogs_on_title", using: :btree

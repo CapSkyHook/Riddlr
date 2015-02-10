@@ -27,8 +27,11 @@ Stumplr.Views.SidebarView = Backbone.CompositeView.extend({
 
 
   addBlogListItem: function (blogListItem) {
+    var posts = blogListItem.posts();
+    posts.fetch();
     var view = new Stumplr.Views.SidebarItemView({
-      model: blogListItem
+      model: blogListItem,
+      collection: posts
     });
     this.addSubview('#sidebar-list', view);
   },

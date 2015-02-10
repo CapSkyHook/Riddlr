@@ -52,7 +52,7 @@ class PostsController < ApplicationController
     end
 
     def post_params
-      params.require(:post).permit(:title, :blog_id, :body, :user_id, :content_type, :filepicker_url)
+      params.require(:post).permit(:title, :blog_id, :body, :user_id, :content_type, :filepicker_url, :blog_picture_url)
     end
 
 end

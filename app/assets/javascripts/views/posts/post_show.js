@@ -1,5 +1,6 @@
 Stumplr.Views.PostShow = Backbone.CompositeView.extend({
   template: JST['posts/show'],
+  quoteTemplate: JST['posts/quoteShow'],
 
   className: 'post-show',
 
@@ -16,10 +17,16 @@ Stumplr.Views.PostShow = Backbone.CompositeView.extend({
   },
 
   render: function () {
-    var renderedContent = this.template({
-      post: this.model
-    });
-
+    if (this.model.get('content_type') === "Quote") {
+      var renderedContent = this.quoteTemplate({
+        post: this.model
+      });
+    } else {
+      var renderedContent = this.template({
+        post: this.model
+      });
+    }
+    
     this.$el.html(renderedContent);
     this.addProfilePhoto();
     this.$(".post-pic").attr("src", this.model.get('filepicker_url'));

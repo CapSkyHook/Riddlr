@@ -1,6 +1,7 @@
 Stumplr.Views.PostForm = Backbone.CompositeView.extend({
   textTemplate: JST['posts/text'],
   pictureTemplate: JST['posts/picture'],
+  quoteTemplate: JST['posts/quote'],
 
   events: {
     'submit #form_id': 'submit',
@@ -44,6 +45,10 @@ Stumplr.Views.PostForm = Backbone.CompositeView.extend({
       });
     } else if (this.recipient === "Picture") {
       var renderedContent = this.pictureTemplate({
+        post: this.model
+      })
+    } else if (this.recipient === "Quote") {
+      var renderedContent = this.quoteTemplate({
         post: this.model
       })
     }

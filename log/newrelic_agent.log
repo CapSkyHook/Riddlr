@@ -961,3 +961,21 @@
 [02/09/15 23:00:57 -0800 Gautams-MacBook-Pro.local (60655)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.000932 seconds: getaddrinfo: nodename nor servname provided, or not known
 [02/09/15 23:02:10 -0800 Gautams-MacBook-Pro.local (60655)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
 [02/09/15 23:02:10 -0800 Gautams-MacBook-Pro.local (60655)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 6.00232 seconds: Connection reset by peer - SSL_connect
+[02/10/15 10:01:28 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Starting the New Relic agent in "development" environment.
+[02/10/15 10:01:28 -0800 Gautams-MacBook-Pro.local (64232)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/10/15 10:01:28 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Reading configuration from config/newrelic.yml (/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project)
+[02/10/15 10:01:28 -0800 Gautams-MacBook-Pro.local (64232)] INFO : New Relic Agent Developer Mode enabled.
+[02/10/15 10:01:28 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Environment: development
+[02/10/15 10:01:28 -0800 Gautams-MacBook-Pro.local (64232)] INFO : No known dispatcher detected.
+[02/10/15 10:01:28 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Application: My Application (Development)
+[02/10/15 10:01:29 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Installing ActiveJob instrumentation
+[02/10/15 10:01:29 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Installing ActiveRecord 4 instrumentation
+[02/10/15 10:01:29 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Installing Net instrumentation
+[02/10/15 10:01:29 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Installing deferred Rack instrumentation
+[02/10/15 10:01:29 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Installing Rack::Builder middleware instrumentation
+[02/10/15 10:01:29 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Installing Rails 3+ middleware instrumentation
+[02/10/15 10:01:29 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Installing Rails 4 Controller instrumentation
+[02/10/15 10:01:29 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Installing Rails 4 view instrumentation
+[02/10/15 10:01:29 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Installing Rails 4 Error instrumentation
+[02/10/15 10:01:29 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Finished instrumentation
+[02/10/15 10:01:29 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793

@@ -34,7 +34,7 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
     var renderedContent = this.template({
       blog: this.model
     });
-    
+
     this.$el.html(renderedContent);
     this.addProfilePhoto();
     this.renderPosts();

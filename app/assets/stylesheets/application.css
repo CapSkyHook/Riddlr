@@ -21,8 +21,7 @@
 
 
 body {
-  padding-top: 40px;
-  padding-bottom: 40px;
+
   background-color: #eee;
 }
 .fullscreen_bg {
@@ -117,4 +116,31 @@ body {
 
 #fullscreen_bg > div > div > div.col-sm-3.login-form > form:nth-child(2) > input {
   font-size: 18px;
+}
+
+body {
+  background-color: #5B5B62;
+}
+
+body > nav.navbar-default {
+  border-width: 0
+  margin-bottom: 30px;
+
+  background-color: #5B5B62;
+
+}
+
+body > nav > div > div.navbar-header > a {
+  margin-top: 10px;
+  margin-left: 0px;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  color: #9EA69E;
+  font-size: 40px;
+  padding: 0;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+#feed-list > div.post-show {
+  background-color: white;
 }

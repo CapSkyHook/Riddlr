@@ -9,7 +9,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="<%= root_url %>">Stumplr</a>
+        <a class="navbar-brand" href="<%= root_url %>">Riddlr<label id="brand-question-mark">?</label></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -28,7 +28,7 @@
                   <h4 class="modal-title" id="myModalLabel">New Blog!</h4>
                 </div>
                 <div class="modal-body">
-                
+
                   <div class="new-blog-errors"></div>
 
                   <form id="new-blog-form" action="<%= api_blogs_url %>" method="post" data-remote="true">

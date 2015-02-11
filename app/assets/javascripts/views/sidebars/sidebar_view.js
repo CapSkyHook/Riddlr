@@ -27,10 +27,12 @@ Stumplr.Views.SidebarView = Backbone.CompositeView.extend({
 
 
   addBlogListItem: function (blogListItem) {
-    var view = new Stumplr.Views.SidebarItemView({
-      model: blogListItem
-    });
-    this.addSubview('#sidebar-list', view);
+    if (blogListItem.get("owner_id") === Stumplr.current_user_id) {
+      var view = new Stumplr.Views.SidebarItemView({
+        model: blogListItem
+      });
+      this.addSubview('#sidebar-list', view);
+    }
   },
 
 

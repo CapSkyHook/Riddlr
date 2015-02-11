@@ -3,7 +3,7 @@ Stumplr.Routers.Router = Backbone.Router.extend({
 
     this.$rootEl = $('#content');
     this.$sideEl = $('#sidebar');
-
+    this.sidebarView();
   },
 
   routes: {
@@ -58,7 +58,7 @@ Stumplr.Routers.Router = Backbone.Router.extend({
     this.currentView && this.currentView.remove();
     this.currentView = view;
     this.$rootEl.html(view.render().$el);
-    this.sidebarView();
+    // this.sidebarView();
   }
 
 });

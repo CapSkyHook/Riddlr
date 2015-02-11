@@ -43,6 +43,13 @@ Stumplr.Views.PostShow = Backbone.CompositeView.extend({
     });
   },
 
+  // addSubscribeButton: function () {
+  //   var view = new Stumplr.Views.SubscribeButtonView({
+  //     model: this.model
+  //   });
+  //   this.addSubview('#subscribe-button', view);
+  // },
+
   editPost: function (event) {
     event.preventDefault();
     var editFormView = new Stumplr.Views.PostForm({

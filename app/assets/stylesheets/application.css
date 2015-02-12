@@ -23,6 +23,7 @@
 body {
   background-color: #eee;
 }
+
 .fullscreen_bg {
   position: fixed;
   top: 0;
@@ -79,11 +80,6 @@ body {
   border-color: #000;
 }
 .form-signin-heading {
-  /*color: #7B7D7A;
-  text-align: center;
-  text-shadow: 0 2px 2px rgba(0,0,0,0.5);
-  font-size: 60px;
-  font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";*/
   margin-bottom: -5px;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   color: #9EA69E;
@@ -121,9 +117,7 @@ body {
 }
 
 body {
-  /*background-image: url(http://psdgraphics.com/file/green-grunge.jpg);*/
   background-color: black;
-  /*background-color: #333833;*/
   color: #DEDEDE;
 }
 
@@ -133,7 +127,6 @@ body > nav.navbar-default {
   padding-top: 5px;
   margin-bottom: 30px;
   background-color: black;
-  /*background-color: #333833;*/
 
 }
 
@@ -170,8 +163,6 @@ body > nav.navbar-default {
 #feed-list > div.post-show {
   background-color: white;
 }
-
-#bs-example-navbar-collapse-1
 
 body > nav {
   border-color: transparent;

@@ -1234,3 +1234,21 @@
 [02/11/15 23:16:15 -0800 Gautams-MacBook-Pro.local (2622)] INFO : Starting Agent shutdown
 [02/11/15 23:16:16 -0800 Gautams-MacBook-Pro.local (2614)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
 [02/11/15 23:16:16 -0800 Gautams-MacBook-Pro.local (2614)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.001087 seconds: getaddrinfo: nodename nor servname provided, or not known
+[02/11/15 23:16:57 -0800 Gautams-MacBook-Pro.local (2614)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[02/11/15 23:16:57 -0800 Gautams-MacBook-Pro.local (2614)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.001577 seconds: getaddrinfo: nodename nor servname provided, or not known
+[02/11/15 23:16:57 -0800 Gautams-MacBook-Pro.local (2614)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[02/11/15 23:16:57 -0800 Gautams-MacBook-Pro.local (2614)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.001183 seconds: getaddrinfo: nodename nor servname provided, or not known
+[02/11/15 23:17:15 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[02/11/15 23:17:15 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.001047 seconds: getaddrinfo: nodename nor servname provided, or not known
+[02/12/15 08:55:19 -0800 Gautams-MacBook-Pro.local (2614)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[02/12/15 08:55:19 -0800 Gautams-MacBook-Pro.local (2614)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.000819 seconds: getaddrinfo: nodename nor servname provided, or not known
+[02/12/15 08:55:32 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[02/12/15 08:55:32 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.000829 seconds: getaddrinfo: nodename nor servname provided, or not known
+[02/12/15 08:55:37 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[02/12/15 08:55:37 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.00162 seconds: getaddrinfo: nodename nor servname provided, or not known
+[02/12/15 08:55:37 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[02/12/15 08:55:37 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.001021 seconds: getaddrinfo: nodename nor servname provided, or not known
+[02/12/15 08:55:49 -0800 Gautams-MacBook-Pro.local (2614)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[02/12/15 08:55:49 -0800 Gautams-MacBook-Pro.local (2614)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.001675 seconds: getaddrinfo: nodename nor servname provided, or not known
+[02/12/15 08:55:49 -0800 Gautams-MacBook-Pro.local (2614)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[02/12/15 08:55:49 -0800 Gautams-MacBook-Pro.local (2614)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.001531 seconds: getaddrinfo: nodename nor servname provided, or not known

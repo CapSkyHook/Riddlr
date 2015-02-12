@@ -2,23 +2,25 @@
   <div id="subscribe-button">
   </div>
 <% } %>
-<div class="page-header align-left text-center">
-  <img class="blog-profile-picture"style="width:75px;height:75px"/>
-  <h1> <%= blog.escape('title') %> </h1>
-  <span class="badge">Subscriptions: <%= blog.escape('subscriptions_count') || 0 %>
-
-
-
-
+<div class="page-header align-left text-center row blog-show-header">
+  <div class="col-sm-3 blog-profile-pic">
+    <img class="blog-profile-picture"style="width:75px;height:75px" src=""/>
+  </div>
+  <div class="col-sm-9 blog-title">
+    <h1> <%= blog.escape('title') %> </h1>
+    <span class="badge">Subscriptions: <%= blog.escape('subscriptions_count') || 0 %>
+  </div>
 </div>
-<div class="text-center">
+<div class="text-center row">
+  <div class="col-sm-3"> </div>
+  <div class="col-sm-9">
   <% if (Stumplr.current_user_id === blog.get('owner_id')) { %>
       <button type="button" class="btn btn-primary make-post-form" data-toggle="modal" data-target="#newPostForm" data-whatever="Text">Text</button>
     <button type="button" class="btn btn-primary make-post-form" data-toggle="modal" data-target="#newPostForm" data-whatever="Picture">Picture</button>
     <button type="button" class="btn btn-primary make-post-form" data-toggle="modal" data-target="#newPostForm" data-whatever="Quote">Quote</button>
   <% } %>
 
-
+  </div>
 
   <div id="modal-form-wrapper">
 

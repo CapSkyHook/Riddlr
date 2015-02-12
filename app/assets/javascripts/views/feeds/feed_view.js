@@ -7,6 +7,7 @@ Stumplr.Views.FeedView = Backbone.CompositeView.extend({
 
 
   initialize: function () {
+    Stumplr.counter = 0
     this.listenTo(this.collection, 'add', this.addPost);
   },
 
@@ -20,10 +21,11 @@ Stumplr.Views.FeedView = Backbone.CompositeView.extend({
 
 
   addPost: function (post) {
-    var view = new Stumplr.Views.PostShow({
-      model: post
+    var view = new Stumplr.Views.FeedViewItem({
+      model: post,
     });
-    this.addSubview('#feed-list', view);
+    Stumplr.counter ++;
+    this.addSubview('.timeline-list', view);
   }
 
 });

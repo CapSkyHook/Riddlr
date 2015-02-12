@@ -1,30 +1,32 @@
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <ul class="nav nav-pills">
-    <% if ((Stumplr.current_user_id === post.get('user_id'))) { %>
-
-      <li role="presentation" class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicons glyphicons-brush"></span><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> <span class="caret"></span></a>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="#" class="post-edit" data-toggle="modal">Edit</a></li>
-          <li class="divider"></li>
-          <li><a class="post-delete">Delete</a></li>
-
-        </ul>
-      </li>
-    <% } %>
-
-      <a href="#/blogs/<%= post.escape('blog_id') %>" role="button" aria-expanded="false"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
-    </ul>
-      <img alt="" class="post-blog-image" style=""/>
-
+<div class="panel panel-default panel-post-show row">
+  <div class="post-blog-pic col-sm-3">
+    <img alt="" class="post-blog-image" style=""/>
   </div>
-    <div class="panel-body">
-      <h4 class="post-title"><%= post.escape('title') %></h4>
-      <br>
-      <img class="post-pic" src="" alt=""/>
-      <br>
-    <label class="post-content"><%= post.escape('body') %></label>
+  <div class="panel-body col-sm-9">
+
+
+        <ul class="nav nav-pills">
+        <% if ((Stumplr.current_user_id === post.get('user_id'))) { %>
+
+          <li role="presentation" class="dropdown-post-edit">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"></span><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#" class="post-edit" data-toggle="modal"><span class="glyphicon glyphicon-edit" aria-hidden="true"> Edit </span></a></li>
+              <li class="divider"></li>
+              <li><a class="post-delete"><span class="glyphicon glyphicon-trash" aria-hidden="true"> Delete </span></a></li>
+
+            </ul>
+          </li>
+        <% } %>
+
+          <a href="#/blogs/<%= post.escape('blog_id') %>" role="button" aria-expanded="false"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+        </ul>
+
+        <h4 class="post-title"><%= post.escape('title') %></h4>
+        <br>
+        <img class="post-pic" src="" alt=""/>
+        <br>
+      <label class="post-content"><%= post.escape('body') %></label>
   </div>
 </div>
 

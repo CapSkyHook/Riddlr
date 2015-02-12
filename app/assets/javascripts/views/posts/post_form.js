@@ -25,20 +25,24 @@ Stumplr.Views.PostForm = Backbone.CompositeView.extend({
     this.model.set(attrs.post);
     this.model.set('filepicker_url', this._imageUrl);
     var $modal = this.$('#modal-form');
-    that.model.save({}, {
-      success: function (){
-        $modal.on('hidden.bs.modal', function(){
+    var isNew = this.model.isNew();
+    $modal.on('hidden.bs.modal', function(){
+      that.model.save({}, {
+        success: function (){
           that.blog.posts().add(that.model, { merge: true });
-        })
-        $modal.modal('hide');
-        that.blog.addPost();
-      },
+          Stumplr.Collections.blogs.where({id: that.blog.id})
+          if (isNew) {
+            Stumplr.Collections.blogs.get(that.blog.id).addPost();
+            // that.blog.addPost();
+          }
+        },
 
-      error: function (model, response) {
-        that.$('.errors').html(response.responseJSON)
-      }
+        error: function (model, response) {
+          that.$('.errors').html(response.responseJSON)
+        }
+      })
     });
-
+    $modal.modal('hide');
   },
 
   render: function () {

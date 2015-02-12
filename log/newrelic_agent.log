@@ -1182,3 +1182,55 @@
 [02/10/15 23:40:13 -0800 Gautams-MacBook-Pro.local (65462)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.011084 seconds: getaddrinfo: nodename nor servname provided, or not known
 [02/10/15 23:44:43 -0800 Gautams-MacBook-Pro.local (64232)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
 [02/10/15 23:44:43 -0800 Gautams-MacBook-Pro.local (64232)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 17.243809 seconds: Connection reset by peer - SSL_connect
+[02/11/15 13:24:56 -0800 Gautams-MacBook-Pro.local (65462)] INFO : Starting Agent shutdown
+[02/11/15 13:24:56 -0800 Gautams-MacBook-Pro.local (64232)] INFO : Starting Agent shutdown
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Starting the New Relic agent in "development" environment.
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Reading configuration from config/newrelic.yml (/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project)
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : New Relic Agent Developer Mode enabled.
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Environment: development
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Dispatcher: webrick
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Application: My Application (Development)
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Installing ActiveJob instrumentation
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Installing ActiveRecord 4 instrumentation
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Installing Net instrumentation
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Installing deferred Rack instrumentation
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Installing Rack::Builder middleware instrumentation
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Installing Rails 3+ middleware instrumentation
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Installing Rails 4 Controller instrumentation
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Installing Rails 4 view instrumentation
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Installing Rails 4 Error instrumentation
+[02/11/15 13:27:46 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Finished instrumentation
+[02/11/15 13:27:47 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Doing deferred dependency-detection before Rack startup
+[02/11/15 13:27:48 -0800 Gautams-MacBook-Pro.local (1017)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793
+[02/11/15 13:34:10 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[02/11/15 13:34:10 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.001129 seconds: getaddrinfo: nodename nor servname provided, or not known
+[02/11/15 13:34:48 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[02/11/15 13:34:48 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.001417 seconds: getaddrinfo: nodename nor servname provided, or not known
+[02/11/15 13:34:48 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[02/11/15 13:34:48 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.000986 seconds: getaddrinfo: nodename nor servname provided, or not known
+[02/11/15 13:35:48 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[02/11/15 13:35:48 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.001537 seconds: getaddrinfo: nodename nor servname provided, or not known
+[02/11/15 13:35:48 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[02/11/15 13:35:48 -0800 Gautams-MacBook-Pro.local (1017)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.001002 seconds: getaddrinfo: nodename nor servname provided, or not known
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : Starting the New Relic agent in "development" environment.
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : Reading configuration from config/newrelic.yml (/Users/Gautam/Documents/App_Academy/Week_8/Final-Project-Proposal/Final-Project)
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : New Relic Agent Developer Mode enabled.
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : Environment: development
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : No known dispatcher detected.
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : Application: My Application (Development)
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : Installing ActiveJob instrumentation
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : Installing ActiveRecord 4 instrumentation
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : Installing Net instrumentation
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : Installing deferred Rack instrumentation
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : Installing Rack::Builder middleware instrumentation
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : Installing Rails 3+ middleware instrumentation
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : Installing Rails 4 Controller instrumentation
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : Installing Rails 4 view instrumentation
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : Installing Rails 4 Error instrumentation
+[02/11/15 17:40:23 -0800 Gautams-MacBook-Pro.local (2614)] INFO : Finished instrumentation
+[02/11/15 17:40:28 -0800 Gautams-MacBook-Pro.local (2614)] INFO : Reporting to: https://rpm.newrelic.com/accounts/891535/applications/6881793
+[02/11/15 23:16:15 -0800 Gautams-MacBook-Pro.local (2622)] INFO : Starting Agent shutdown
+[02/11/15 23:16:16 -0800 Gautams-MacBook-Pro.local (2614)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[02/11/15 23:16:16 -0800 Gautams-MacBook-Pro.local (2614)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-115.newrelic.com:443 after 0.001087 seconds: getaddrinfo: nodename nor servname provided, or not known

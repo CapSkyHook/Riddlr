@@ -122,8 +122,9 @@ body {
 
 body {
   /*background-image: url(http://psdgraphics.com/file/green-grunge.jpg);*/
-  background-color: #333833;
-  color: grey;
+  background-color: black;
+  /*background-color: #333833;*/
+  color: #DEDEDE;
 }
 
 body > nav.navbar-default {
@@ -131,10 +132,40 @@ body > nav.navbar-default {
   border-bottom-width: 1px;
   padding-top: 5px;
   margin-bottom: 30px;
-  background-color: #333833;
+  background-color: black;
+  /*background-color: #333833;*/
 
 }
 
+.popover-content {
+    color: crimson;
+    font-size: 14px;
+}
+
+.search-bar {
+  color: black;
+}
+
+.subscribed-button {
+  border-width: 1px;
+  background-color: black;
+  border-color: #DEDEDE;
+}
+.subscribe-button {
+  border-width: 1px;
+  background-color: black;
+  border-color: #DEDEDE;
+}
+
+.blog-list-item {
+  border-width: 0px;
+  border-bottom: 1px;
+}
+
+.my-blog-link {
+  position: absolute;
+  left: 25px;
+}
 
 #feed-list > div.post-show {
   background-color: white;

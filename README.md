@@ -2,7 +2,7 @@
 
 [Heroku link][heroku]
 
-[heroku]: http://flux-capacitr.herokuapp.com
+[heroku]: http://www.stumplr.herokuapp.com
 
 ## Minimum Viable Product
 Stumplr is a tumblr clone where peole can post tricky riddles for others to solve. Users can:

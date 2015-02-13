@@ -12,8 +12,8 @@ Stumplr.Views.SearchResultView = Backbone.CompositeView.extend({
   },
 
   removeBlog: function(blog){
-    var view = $('.search-view-list').find("#search-item-" + blog.id)
-    this.removeSubview('.search-view-list', view)
+    var view = $('.grid-container').find("#search-item-" + blog.id)
+    this.removeSubview('.grid-container', view)
 
   },
   render: function () {

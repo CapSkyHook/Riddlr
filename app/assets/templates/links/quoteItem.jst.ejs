@@ -1,0 +1,20 @@
+<!-- Modal -->
+<div class="modal fade link-modal" id="<%= modalId %>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="panel panel-default panel-post-show row">
+      <div class="panel-body picture-panel-body">
+            <ul class="nav nav-pills">
+              <a class="navigate-link" href="#/blogs/<%= link.get("blog_id")%>"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+            </ul>
+            <h3 class="post-content"><%= link.escape('body') %></h3>
+
+            <br>
+            <% if (link.get('filepicker_url')) { %>
+              <img src="<%=link.get('filepicker_url') %>" class="link-image" />
+              <% } %>            <br>
+              <h6 class="post-title"><%= link.escape('title') %></h6><br>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+</div>
+</div>

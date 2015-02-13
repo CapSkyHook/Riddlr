@@ -17,13 +17,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
-
-
-body {
-  background-color: #eee;
-}
-
 .fullscreen_bg {
   position: fixed;
   top: 0;
@@ -33,6 +26,10 @@ body {
   background-size: cover;
   background-position: 50% 50%;
   background-image: url('http://images.alphacoders.com/156/156261.jpg');
+}
+
+html, body {
+  height: 100%;
 }
 
 .login-form {
@@ -117,21 +114,25 @@ body {
 }
 
 body {
-  background-color: black;
-  color: #DEDEDE;
+  background: #D2D2D2;
+  color: #434341;
+  height: 100%;
 }
 
 body > nav.navbar-default {
   border-width: 0px;
+  border-radius: 0px;
   border-bottom-width: 1px;
   padding-top: 5px;
   margin-bottom: 30px;
   background-color: black;
 
 }
+.popover {
+}
 
 .popover-content {
-    color: crimson;
+    color: black;
     font-size: 14px;
 }
 
@@ -151,31 +152,28 @@ body > nav.navbar-default {
 }
 
 .blog-list-item {
-  border-width: 0px;
-  border-bottom: 1px;
+  margin: 0px;
+  border: 0px;
 }
 
 .my-blog-link {
   position: absolute;
   left: 25px;
+  font-size: 14px;
+  margin: 1px;
 }
 
 #feed-list > div.post-show {
   background-color: white;
 }
 
-body > nav {
-  border-color: transparent;
+.navbar-header {
+  height: 60px;
 }
 
-#bs-example-navbar-collapse-1 > ul:nth-child(1) > li {
-  margin-left: 10px;
-}
-
-div.navbar-header > a.navbar-brand {
+.navbar-brand {
   color: white;
   margin-top: 10px;
-  margin-left: 0px;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 40px;
   padding: 0;
@@ -300,6 +298,7 @@ img.post-pic {
   float: left;
   border: 1px solid #d4d4d4;
   border-radius: 2px;
+  background-color: white;
   padding: 20px;
   position: relative;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
@@ -398,4 +397,66 @@ padding-left:90px;
 }
 .timeline-body > p + p {
   margin-top: 5px;
+}
+
+.post-img {
+  max-width: 100%;
+}
+.search-blog-show-panel {
+  height: 185px;
+}
+
+.flip {
+  display: inline-block;
+  perspective: 370px;
+  position: relative;
+  margin: 5px;
+  width: 185px;
+  height: 185px;
+  margin-bottom: 15px;
+}
+
+.card-grid {
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  margin: 0px;
+  transform: rotateX(0deg);
+}
+
+.link-image {
+  max-height: 80%;
+}
+
+.search-result-image {
+  max-width: 100%;
+  display: block;
+}
+
+.panel-body {
+  max-height: 100%;
+  overflow: scroll;
+}
+
+.picture-panel-body {
+  max-width: 100%;
+  background-color: white;
+}
+
+.search-item-show {
+  height: 80%;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.new-blog-button {
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.my-blog-link {
+    color: #57A72A;
 }

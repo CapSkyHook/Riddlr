@@ -2,6 +2,33 @@
   <label class="no-results">Sorry, there are no results for this query term.</label>
 
   <%  } else {%>
-<div class="search-view-list">
-</div>
+    <div class="grid-container">
+
+   </div>
+<!-- <div class="search-view-list">
+</div> -->
 <% } %>
+<!-- <div class="card">
+  <div class="front">
+    <img src="http://www.jpl.nasa.gov/spaceimages/images/mediumsize/PIA17011_ip.jpg" alt="" width="300" height="400"/>
+  </div>
+  <div class="back">
+    <img src="http://www.online-image-editor.com//styles/2014/images/example_image.png" alt="" width="300" height="400"/>
+  </div>
+</div>
+<div class="card">
+  <div class="front">
+    Stuff
+  </div>
+  <div class="back">
+  Stuff
+  </div>
+</div> -->
+
+ <script>
+   $(function($) {
+    $(".card-grid").flip({
+      trigger: 'hover'
+    });
+  });
+ </script>

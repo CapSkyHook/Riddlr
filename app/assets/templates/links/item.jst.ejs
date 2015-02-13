@@ -1,32 +1,23 @@
-
-<a class="" data-toggle="modal" data-target="#link-show-modal-<%= link.id %>">
-  <%= link.escape('title') %>
-</a>
-
 <!-- Modal -->
-<div class="modal fade link-modal" id="link-show-modal-<%= link.id %>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <a class="navigate-link" href="#/blogs/<%= link.get("blog_id")%>"
->Go To Blog!</a>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <div class="text-center">
-          <h4 class="modal-title" id="myModalLabel">
-            <%= link.escape('title') %>
-            </h4>
-        </div>
+<div class="modal fade link-modal" id="<%= modalId %>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="panel panel-default panel-post-show  search-item-show row">
+      <div class="panel-body">
 
-      </div>
-      <div class="modal-body">
+
+        <ul class="nav nav-pills">
+
+          <a class="navigate-link" href="#/blogs/<%= link.get("blog_id")%>"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+        </ul>
+
+        <h4 class="post-title"><%= link.escape('title') %></h4>
+        <br>
         <% if (link.get('filepicker_url')) { %>
-          <img src="<%=link.get('filepicker_url') %>" id="link-image" />
-          <% } %>
-        <%= link.escape('body') %>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <img src="<%=link.get('filepicker_url') %>" class="link-image" />
+          <% } %>            <br>
+          <label class="post-content"><%= link.escape('body') %></label><br>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+        </div>
       </div>
     </div>
-  </div>
 </div>

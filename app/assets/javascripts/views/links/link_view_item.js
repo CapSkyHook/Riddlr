@@ -1,8 +1,30 @@
 Stumplr.Views.LinkView = Backbone.View.extend({
-  template: JST['links/item'],
+  template: JST['links/link'],
+  nonQuoteTemplate: JST['links/item'],
+  quoteTemplate: JST['links/quoteItem'],
 
   events: {
-    "click .navigate-link": "navigatePage"
+    "click .navigate-link": "navigatePage",
+    "click .item-link": "showModal"
+  },
+
+  showModal: function(){
+    var template;
+    if (this.model.get('content_type') === "Quote") {
+      template = this.quoteTemplate;
+    } else {
+      template = this.nonQuoteTemplate;
+    }
+    var modal = template({
+      link: this.model,
+      modalId: this.modalId()
+    });
+    $('#modal-home').html(modal);
+    $("#" + this.modalId()).modal();
+  },
+
+  modalId: function(){
+    return "link-show-modal-" + this.model.id;
   },
 
   initialize: function () {
@@ -10,9 +32,19 @@ Stumplr.Views.LinkView = Backbone.View.extend({
   },
 
   render: function () {
+
+    // if (this.model.get('content_type') === "Quote") {
+    //   var renderedContent = this.quoteTemplate({
+    //     link: this.model
+    //   });
+    // } else {
+    //   var renderedContent = this.template({
+    //     link: this.model
+    //   });
+    // }
     var renderedContent = this.template({
-      link: this.model
-    });
+        link: this.model
+      });
     this.$el.html(renderedContent);
 
     return this;

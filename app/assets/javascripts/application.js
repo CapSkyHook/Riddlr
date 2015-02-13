@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.serializeJSON
+//= require flip
 //= require underscore
 //= require backbone
 //= require bootstrap

@@ -1,7 +1,7 @@
 Stumplr.Views.SearchViewItem = Backbone.CompositeView.extend({
   template: JST['searches/item'],
 
-  className: 'search-item',
+  className: 'flip',
 
   idName: 'search-item-<%= blog.id %>',
 
@@ -11,7 +11,7 @@ Stumplr.Views.SearchViewItem = Backbone.CompositeView.extend({
   },
 
   render: function () {
-    var renderedContent = this.template({
+  var renderedContent = this.template({
       blog: this.model
     });
     this.$el.html(renderedContent);
@@ -23,6 +23,6 @@ Stumplr.Views.SearchViewItem = Backbone.CompositeView.extend({
     var view = new Stumplr.Views.LinkView({
       model: link
     });
-    this.addSubview('#links-list', view);
+    this.addSubview('.links-list', view);
   }
 });

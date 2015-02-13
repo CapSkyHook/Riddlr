@@ -36,5 +36,3 @@ class Api::BlogsController < Api::ApiController
     params.require(:blog).permit(:title, :owner_id, :profile_image)
   end
 end
-
-#c.fetch({data: {search_term: "law"}})

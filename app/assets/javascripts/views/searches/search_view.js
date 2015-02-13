@@ -4,8 +4,6 @@ Stumplr.Views.SearchResultView = Backbone.CompositeView.extend({
 
   className: 'search-view',
 
-
-
   initialize: function () {
     this.listenTo(this.collection, 'sync', this.render);
     this.listenTo(this.collection, 'add', this.addBlog);
@@ -33,6 +31,6 @@ Stumplr.Views.SearchResultView = Backbone.CompositeView.extend({
     var view = new Stumplr.Views.SearchViewItem({
       model: blog
     });
-    this.addSubview('.search-view-list', view);
+    this.addSubview('.grid-container', view);
   }
 });

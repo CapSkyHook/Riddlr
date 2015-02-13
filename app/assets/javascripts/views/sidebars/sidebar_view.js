@@ -46,6 +46,7 @@ Stumplr.Views.SidebarView = Backbone.CompositeView.extend({
 
   showPopover: function () {
     $(".search-bar").popover();
+
   },
 
   hidePopover: function () {

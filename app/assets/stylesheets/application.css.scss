@@ -100,7 +100,7 @@ html, body {
 .btn-primary {
 
   color: white;
-  background-color: #48AB13;
+  background-color: #57A72A;
   border-color: transparent;
 }
 .btn-primary:hover {
@@ -239,6 +239,16 @@ img.blog-post-image {
   background-color: white;
   border-box: 1px;
   border-radius: 4px;
+  min-height: 125px
+}
+
+.post-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.post-content {
+  margin-top: 15px;
 }
 
 .blog-profile-picture {

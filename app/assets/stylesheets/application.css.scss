@@ -119,7 +119,7 @@ body {
   height: 100%;
 }
 
-body > nav.navbar-default {
+.navbar-default {
   border-width: 0px;
   border-radius: 0px;
   border-bottom-width: 1px;
@@ -128,6 +128,14 @@ body > nav.navbar-default {
   background-color: black;
 
 }
+.navbar-default .navbar-brand {
+  color: white;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 0px;
+  }
 .popover {
 }
 

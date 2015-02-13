@@ -15,6 +15,8 @@ class SubscriptionsController < ApplicationController
   end
 
   def index
+    @subscriptions = current_user.subscribed_blogs
+    render json: @subscriptions
   end
 
   private

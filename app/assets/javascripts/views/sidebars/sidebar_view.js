@@ -12,7 +12,9 @@ Stumplr.Views.SidebarView = Backbone.CompositeView.extend({
   },
 
   initialize: function (options) {
+    this.subscribedBlogs = options.subscribedBlogs;
     this.listenTo(this.collection, 'add', this.addBlogListItem);
+    this.listenTo(this.subscribedBlogs, 'add', this.addSubscribedBlogListItem);
     this.$rootEl = options.$rootEl;
   },
 
@@ -33,6 +35,12 @@ Stumplr.Views.SidebarView = Backbone.CompositeView.extend({
       });
       this.addSubview('#sidebar-list', view);
     }
+  },
+  addSubscribedBlogListItem: function (suscribedBlogListItem) {
+      var view = new Stumplr.Views.SidebarItemView({
+        model: suscribedBlogListItem
+      });
+      this.addSubview('#subscribed-blogs-list', view);
   },
 
 

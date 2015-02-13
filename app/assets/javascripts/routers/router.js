@@ -44,8 +44,11 @@ Stumplr.Routers.Router = Backbone.Router.extend({
   sidebarView: function () {
     var ownedBlogs = Stumplr.Collections.blogs;
     ownedBlogs.fetch();
+    var subscribedBlogs = Stumplr.Collections.subscribedBlogs;
+    subscribedBlogs.fetch()
     var sidebarView = new Stumplr.Views.SidebarView({
       collection: ownedBlogs,
+      subscribedBlogs: subscribedBlogs,
       $rootEl: this.$rootEl
     });
 

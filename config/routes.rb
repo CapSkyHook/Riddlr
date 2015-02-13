@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   resource :session
   resources :blogs, only: [:new, :create]
   resources :posts
-  resources :subscriptions, only: [:create, :destroy]
+  resources :subscriptions, only: [:create, :destroy, :index]
 
   namespace :api, defaults: { format: :json } do
     resources :blogs

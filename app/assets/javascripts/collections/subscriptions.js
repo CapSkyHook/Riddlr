@@ -20,3 +20,5 @@ Stumplr.Collections.Subscriptions = Backbone.Collection.extend({
     return post;
   }
 });
+
+Stumplr.Collections.subscribedBlogs = new Stumplr.Collections.Subscriptions();

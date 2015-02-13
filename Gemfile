@@ -38,6 +38,7 @@ gem 'rails_12factor'
 gem 'twilio-ruby'
 gem 'pusher'
 
+gem 'seed_dump'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

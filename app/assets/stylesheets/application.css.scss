@@ -572,3 +572,8 @@ div.title-for-link {
   transform: translateY(0);
   border-width: 4px;
 }
+
+.search-result-links-item {
+  max-height: 50%;
+  overflow: scroll;
+}

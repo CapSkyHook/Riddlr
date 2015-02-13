@@ -12,13 +12,13 @@
         <form id="form_id">
           <div class="form-group">
             <label for="post-title" class="control-label">Title</label>
-            <input type="text" class="form-control" id="recipient-name" name="post[title]" value="<%= post.get('title') %>">
+            <input type="text" class="form-control" id="recipient-name" name="post[title]" value="<%= post.get('title') %>" required title="Please give a title.">
             <div class="title-errors">
             </div>
           </div>
           <div class="form-group">
             <label for="message-text" class="control-label">Content</label>
-            <textarea class="form-control" id="message-text" name="post[body]" value="post[body]"><%= post.get('body') %></textarea>
+            <textarea class="form-control" id="message-text" name="post[body]" value="post[body]" required title="Please give some content."><%= post.get('body') %></textarea>
             <div class="body-errors">
 
             </div>

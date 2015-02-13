@@ -8,6 +8,8 @@ Stumplr.Views.LinkView = Backbone.View.extend({
     "click .item-link": "showModal"
   },
 
+  className: "title-for-link",
+
   showModal: function(){
     var template;
     if (this.model.get('content_type') === "Quote") {

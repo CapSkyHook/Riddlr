@@ -478,3 +478,9 @@ padding-left:90px;
 .my-blog-link {
     color: #57A72A;
 }
+
+div.title-for-link {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

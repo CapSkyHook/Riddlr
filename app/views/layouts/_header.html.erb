@@ -35,7 +35,7 @@
                     <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
                   <div class="form-group">
                     <label for="newblogtitle">Title</label>
-                    <input type="text" class="form-control" id="newblogtitle" placeholder="Enter Blog Title" name="blog[title]">
+                    <input type="text" class="form-control" id="newblogtitle" placeholder="Enter Blog Title" name="blog[title]" required title="Please enter title.">
                   </div>
                   <div class="form-group">
                     <input type="hidden" class="form-control" id="newblogtitle" placeholder="Enter Blog Title" name="blog[owner_id]" value="<%= current_user ? current_user.id : nil %>">

@@ -9,13 +9,13 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="<%= root_url %>">Riddlr<label class="question-mark">?</label></a>
+        <a class="navbar-brand hvr-float-shadow" href="<%= root_url %>">Riddlr<label class="question-mark">?</label></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav new-blog-button">
-          <li class="active"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+          <li class="active"><button type="button" class="btn btn-primary hvr-pop" data-toggle="modal" data-target="#myModal">
             <span class="glyphicon glyphicon-book" style="vertical-align:middle"></span> New Blog
                 </button>
 
@@ -61,7 +61,7 @@
         </form>
         <ul class="nav navbar-nav navbar-right">
           <% if signed_in? %>
-            <li><%= button_to "Sign out", session_url, method: :delete, class: "btn btn-primary navbar-btn" %></li>
+            <li><%= button_to "Sign out", session_url, method: :delete, class: "btn btn-primary navbar-btn hvr-push" %></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Welcome <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">

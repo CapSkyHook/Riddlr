@@ -34,16 +34,6 @@ Stumplr.Views.LinkView = Backbone.View.extend({
   },
 
   render: function () {
-
-    // if (this.model.get('content_type') === "Quote") {
-    //   var renderedContent = this.quoteTemplate({
-    //     link: this.model
-    //   });
-    // } else {
-    //   var renderedContent = this.template({
-    //     link: this.model
-    //   });
-    // }
     var renderedContent = this.template({
         link: this.model
       });

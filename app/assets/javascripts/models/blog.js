@@ -40,6 +40,7 @@ Stumplr.Models.Blog = Backbone.Model.extend({
   subscribe: function(){
     var that = this;
     this.subscription().save({}, {success: function(){
+      Stumplr.Collections.subscribedBlogs.add(that);
       that.updateSubscriptionCount(1);
     }});
   },
@@ -49,6 +50,7 @@ Stumplr.Models.Blog = Backbone.Model.extend({
     this.subscription().destroy({
       success: function(){
         delete that._subscription;
+        Stumplr.Collections.subscribedBlogs.remove(that);
         that.updateSubscriptionCount(-1);
       }
     });

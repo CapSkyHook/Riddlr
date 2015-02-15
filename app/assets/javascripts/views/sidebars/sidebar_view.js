@@ -15,7 +15,7 @@ Stumplr.Views.SidebarView = Backbone.CompositeView.extend({
     this.subscribedBlogs = options.subscribedBlogs;
     this.listenTo(this.collection, 'add', this.addBlogListItem);
     this.listenTo(this.subscribedBlogs, 'add', this.addSubscribedBlogListItem);
-    this.listenTo(this.subscribedBlogs, 'remove', this.removeSubscribedBlogListItem);
+    this.listenTo(this.subscribedBlogs, 'remove', this.removeBlog);
     this.$rootEl = options.$rootEl;
   },
 
@@ -44,9 +44,9 @@ Stumplr.Views.SidebarView = Backbone.CompositeView.extend({
       this.addSubview('#subscribed-blogs-list', view);
   },
 
-  removeSubscribedBlogListItem: function(blog){
-    var view = $('.grid-container').find("#search-item-" + blog.id)
-    this.removeSubview('.grid-container', view)
+  removeBlog: function(blog){
+    var view = $('#subscribed-blogs-list').find("#sidebar-item-" + blog.id)
+    this.removeSubview('#subscribed-blogs-list', view)
 
   },
 

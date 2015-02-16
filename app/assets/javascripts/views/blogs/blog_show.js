@@ -80,7 +80,6 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
   setBackgroundImageAttribute: function (event) {
     var that = this;
     var attr = $(event.target).serializeJSON();
-    console.log(attr.background_image);
     this.model.set("background_image", attr.background_image);
     this.model.save();
   }

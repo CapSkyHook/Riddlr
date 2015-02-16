@@ -1,2 +1,4 @@
-<li id="sidebar-item-<%=blog.id %>" class="blog-list-item list-group-item"><a href="#/blogs/<%= blog.id %>" class="my-blog-link"><%= blog.escape('title')%> </a><span class="badge">Posts: <%= blog.escape('posts_count') || 0 %></span>
+<li id="sidebar-item-<%=blog.id %>" class="blog-list-item list-group-item"><a href="#/blogs/<%= blog.id %>" class="my-blog-link"><div class="link-content">
+  <%= blog.escape('title')%>
+</div> </a><span class="badge">Posts: <%= blog.escape('posts_count') || 0 %></span>
 <li>

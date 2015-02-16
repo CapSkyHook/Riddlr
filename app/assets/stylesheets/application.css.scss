@@ -171,6 +171,13 @@ body {
   left: 25px;
   font-size: 14px;
   margin: 1px;
+  width: 50%;
+}
+
+.link-content {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 #feed-list > div.post-show {

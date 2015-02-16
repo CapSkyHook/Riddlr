@@ -117,6 +117,8 @@ body {
   background: #D2D2D2;
   color: #434341;
   height: 100%;
+  background-position: 50% 50%;
+
 }
 
 .navbar-default {
@@ -717,4 +719,9 @@ div.title-for-link {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #434341;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 90;
 }

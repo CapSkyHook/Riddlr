@@ -1,4 +1,4 @@
-json.extract! @blog, :id, :title, :owner_id, :created_at, :updated_at, :profile_image
+json.extract! @blog, :id, :title, :owner_id, :created_at, :updated_at, :profile_image, :background_image
 json.posts_count @blog.posts_count || 0
 json.subscriptions_count @blog.subscriptions_count || 0
 

@@ -31,8 +31,18 @@ class Api::BlogsController < Api::ApiController
      render :show
   end
 
+  def update
+      @blog = Blog.find(params[:id])
+      if @blog.update_attributes(blog_params)
+        render json: @blog
+      else
+        render json: @blog.errors.full_messages,
+               status: :unprocessable_entity
+      end
+    end
+
   private
   def blog_params
-    params.require(:blog).permit(:title, :owner_id, :profile_image)
+    params.require(:blog).permit(:title, :owner_id, :profile_image, :background_image)
   end
 end

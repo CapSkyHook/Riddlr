@@ -14,7 +14,9 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
   },
 
   events: {
-    "click button.make-post-form": 'showModal'
+    "click button.make-post-form": 'showModal',
+    "click button.background-image-button": "showBackgroundForm",
+    "submit #set-background-image": "setBackgroundImageAttribute"
   },
 
   showModal: function (event) {
@@ -31,11 +33,14 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
   },
 
   render: function () {
+    var background_image_url = this.model.escape("background_image") || ""
     var renderedContent = this.template({
       blog: this.model
     });
 
     this.$el.html(renderedContent);
+    $("body").css("background-image", 'url(' + background_image_url + ')' )
+    $("body").css("background-size", '100%')
     this.addProfilePhoto();
     this.renderPosts();
     this.addSubscribeButton();
@@ -66,5 +71,16 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
     if (this.model.get('profile_image')) {
       $(".blog-profile-picture").attr("src", this.model.get('profile_image'))
     }
+  },
+
+  showBackgroundForm: function (event) {
+    $('.set-background-image').toggleClass("hidden-form")
+  },
+
+  setBackgroundImageAttribute: function (event) {
+    var that = this;
+    var attr = $(event.target).serializeJSON();
+    this.model.set("background_image", attr.background_image);
+    this.model.save();
   }
 });

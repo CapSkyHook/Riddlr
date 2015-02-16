@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150210194458) do
+ActiveRecord::Schema.define(version: 20150215195344) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 20150210194458) do
     t.string   "profile_image"
     t.integer  "posts_count"
     t.integer  "subscriptions_count"
+    t.string   "background_image"
   end
 
   add_index "blogs", ["title"], name: "index_blogs_on_title", using: :btree

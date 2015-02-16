@@ -2,6 +2,22 @@
   <div id="subscribe-button">
   </div>
 <% } %>
+<% if (Stumplr.current_user_id === blog.get('owner_id')) { %>
+
+  <div class="edit-background-image">
+    <button type="button" class="background-image-button btn btn-primary" data-id="<%= blog.id %>">Change Background Image!</button>
+    <div class="set-background-image hidden-form">
+      <form id="set-background-image">
+        <div class="form-group">
+          <label for="background-image-url" class="control-label">Title</label>
+          <input type="text" class="form-control" id="recipient-name" name="background_image" value="">
+        </div>
+        <input type="submit" class="btn btn-primary" value="Set Background Image!">
+      </form>
+    </div>
+  </div>
+<% } %>
+
 <div class="page-header align-left text-center row blog-show-header">
   <div class="col-sm-3 blog-profile-pic">
     <img class="blog-profile-picture"style="width:75px;height:75px" src=""/>
@@ -22,7 +38,7 @@
 
   </div>
 
-  <div id="modal-form-wrapper">
+<div id="modal-form-wrapper">
 
   </div>
 </div>

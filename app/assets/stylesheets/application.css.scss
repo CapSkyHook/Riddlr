@@ -124,7 +124,7 @@ body {
   border-radius: 0px;
   border-bottom-width: 1px;
   padding-top: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   background-color: black;
 
 }
@@ -707,4 +707,12 @@ div.title-for-link {
   border-bottom: 1px solid;
   border-bottom-color: white;
   padding-bottom: 15px;
+}
+
+.hidden-form {
+  display: none;
+}
+
+.edit-blog {
+  float: right;
 }

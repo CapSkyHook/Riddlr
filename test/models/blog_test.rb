@@ -10,6 +10,7 @@
 #  profile_image       :string
 #  posts_count         :integer
 #  subscriptions_count :integer
+#  background_image    :string
 #
 
 require 'test_helper'

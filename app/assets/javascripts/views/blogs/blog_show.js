@@ -33,14 +33,14 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
   },
 
   render: function () {
-    var background_image_url = this.model.escape("background_image") || ""
+    var background_image_url = this.model.escape("background_image") || "";
     var renderedContent = this.template({
       blog: this.model
     });
 
     this.$el.html(renderedContent);
-    $("body").css("background-image", 'url(' + background_image_url + ')' )
-    $("body").css("background-size", '100%')
+    $("body").css("background-size", '100%');
+    $("body").css("background-image", 'url(' + background_image_url + ')' );
     this.addProfilePhoto();
     this.renderPosts();
     this.addSubscribeButton();
@@ -80,6 +80,7 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
   setBackgroundImageAttribute: function (event) {
     var that = this;
     var attr = $(event.target).serializeJSON();
+    console.log(attr.background_image);
     this.model.set("background_image", attr.background_image);
     this.model.save();
   }

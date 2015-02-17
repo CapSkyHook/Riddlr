@@ -28,6 +28,7 @@ Stumplr.Views.PostShow = Backbone.CompositeView.extend({
     }
 
     this.$el.html(renderedContent);
+    this.addLikeButton();
     this.addProfilePhoto();
     this.$(".post-pic").attr("src", this.model.get('filepicker_url'));
     return this;
@@ -43,12 +44,12 @@ Stumplr.Views.PostShow = Backbone.CompositeView.extend({
     });
   },
 
-  // addSubscribeButton: function () {
-  //   var view = new Stumplr.Views.SubscribeButtonView({
-  //     model: this.model
-  //   });
-  //   this.addSubview('#subscribe-button', view);
-  // },
+  addLikeButton: function () {
+    var view = new Stumplr.Views.LikeButtonView({
+      model: this.model
+    });
+    this.addSubview('.panel-footer', view);
+  },
 
   editPost: function (event) {
     event.preventDefault();

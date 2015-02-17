@@ -10,5 +10,10 @@ end
 
 
 json.posts @blog.posts do |post|
-  json.extract! post, :id, :title, :user_id, :blog_id, :body, :filepicker_url, :content_type, :updated_at, :blog_picture_url
+  json.extract! post, :id, :title, :user_id, :blog_id, :body, :filepicker_url, :content_type, :updated_at, :blog_picture_url, :likes_count
+  if current_user.liked_posts.include?(post)
+    like = current_user.likes.where({ post_id: post.id })
+
+    json.like like[0]
+  end
 end

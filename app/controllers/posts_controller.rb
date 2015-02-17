@@ -4,7 +4,7 @@ class PostsController < ApplicationController
       #if no query string
       @posts = Post.where(blog_id: current_user.subscribed_blog_ids).order(:created_at)
       #else
-      render json: @posts
+      render :index
     end
 
     def create

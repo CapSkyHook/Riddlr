@@ -24,10 +24,19 @@ Stumplr.Views.FeedViewItem = Backbone.CompositeView.extend({
       var renderedContent = this.template({
         post: this.model
       });
-    }
 
+    this.addLikeButton();
+  }
     this.$el.html(renderedContent);
     this.$(".post-pic").attr("src", this.model.get('filepicker_url'));
     return this;
-  }
+  },
+
+  addLikeButton: function () {
+    var view = new Stumplr.Views.LikeButtonView({
+      model: this.model
+    });
+    this.addSubview('.timeline-footer', view);
+  },
+
 });

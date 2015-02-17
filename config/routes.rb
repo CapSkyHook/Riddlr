@@ -4,8 +4,9 @@ Rails.application.routes.draw do
 
   resource :session
   resources :blogs, only: [:new, :create]
-  resources :posts
+  resources :posts, defaults: { format: :json }
   resources :subscriptions, only: [:create, :destroy, :index]
+  resources :likes, only: [:create, :destroy]
 
   namespace :api, defaults: { format: :json } do
     resources :blogs

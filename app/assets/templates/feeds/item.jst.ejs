@@ -1,6 +1,6 @@
 <% if ( (Stumplr.counter % 2) === 0 ) {%>
     <div class="timeline-badge"><a href="#/blogs/<%= post.get('blog_id') %>"><img src="<%= post.escape("blog_picture_url") %>" width="60" height="60" /></a></div>
-    <div class="timeline-panel hvr-grow">
+    <div class="timeline-panel">
       <div class="timeline-heading">
         <h4 class="timeline-title"><%= post.escape("title")%>   </h4>
 
@@ -14,10 +14,13 @@
         </div>
 
       </div>
+      <div class="timeline-footer">
+
+      </div>
     </div>
 <% } else { %>
     <div class="timeline-badge"><a href="#/blogs/<%= post.get('blog_id') %>"><img src="<%= post.escape("blog_picture_url") %>" width="60" height="60" /></a></div>
-    <div class="timeline-panel hvr-grow">
+    <div class="timeline-panel">
       <div class="timeline-heading">
         <h4 class="timeline-title"><%= post.escape("title")%></h4>
 
@@ -30,6 +33,9 @@
           <p><%= post.escape("body")%>  </p>
 
         </div>
+      </div>
+      <div class="timeline-footer">
+
       </div>
     </div>
 <% } %>

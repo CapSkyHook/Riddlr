@@ -1,0 +1,8 @@
+<% if (liked) { %>
+  <button name="button" class="liked-button"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></button>
+  <label><%= post.escape("likes_count") || 0 %></label>
+<% } else { %>
+  <button name="button" class="like-button"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></button>
+  <label><%= post.escape("likes_count") || 0 %></label>
+
+<% } %>

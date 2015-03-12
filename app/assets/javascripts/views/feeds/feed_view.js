@@ -14,7 +14,6 @@ Stumplr.Views.FeedView = Backbone.CompositeView.extend({
 
   render: function () {
     $("body").css("background-image", 'url(' + 'https://artofwallpapers.files.wordpress.com/2013/10/batman-arkham-city-robin-wallpaper-1920x1200.jpg' + ')' )
-    $("body").css("background-size", '100%')
     var renderedContent = this.feedTemplate({
     });
     this.$el.html(renderedContent);

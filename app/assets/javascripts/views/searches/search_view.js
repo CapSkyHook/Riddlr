@@ -17,7 +17,8 @@ Stumplr.Views.SearchResultView = Backbone.CompositeView.extend({
 
   },
   render: function () {
-    $("body").css("background-image", 'url(' + 'http://p1.pichost.me/i/12/1347576.jpg' + ')' )
+    $("body").css("background-image", 'url(' + 'http://p1.pichost.me/i/12/1347576.jpg' + ')' );
+    $("body").css("color", '#434341' )
 
     var renderedContent = this.template({
       results: this.collection

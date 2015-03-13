@@ -40,6 +40,7 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
 
     this.$el.html(renderedContent);
     $("body").css("background-image", 'url(' + background_image_url + ')' );
+    $("body").css("color", 'white' )
     this.addProfilePhoto();
     this.renderPosts();
     this.addSubscribeButton();

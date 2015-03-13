@@ -38,7 +38,7 @@ Stumplr.Views.SidebarView = Backbone.CompositeView.extend({
     }
   },
   addSubscribedBlogListItem: function (suscribedBlogListItem) {
-      var view = new Stumplr.Views.SidebarItemView({
+      var view = new Stumplr.Views.SubscribedSidebarItemView({
         model: suscribedBlogListItem
       });
       this.addSubview('#subscribed-blogs-list', view);

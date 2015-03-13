@@ -1,4 +1,4 @@
-Stumplr.Views.SidebarItemView = Backbone.CompositeView.extend({
+Stumplr.Views.SubscribedSidebarItemView = Backbone.CompositeView.extend({
   template: JST['sidebars/item'],
 
 

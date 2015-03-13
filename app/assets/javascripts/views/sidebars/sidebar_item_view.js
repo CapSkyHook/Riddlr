@@ -9,6 +9,7 @@ Stumplr.Views.SidebarItemView = Backbone.CompositeView.extend({
   },
 
   render: function () {
+    debugger;
     var renderedContent = this.template({
       blog: this.model
     });

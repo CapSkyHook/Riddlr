@@ -22,13 +22,11 @@ Stumplr.Views.LikeButtonView = Backbone.View.extend({
   },
 
   addLike: function () {
-    debugger;
     this.model.addLike();
 
   },
 
   deleteLike: function () {
-    debugger;
     this.model.unlike();
   }
 

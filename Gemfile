@@ -16,6 +16,7 @@ gem 'bootstrap-sass'
 
 gem "figaro"
 
+
 gem 'filepicker-rails'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby

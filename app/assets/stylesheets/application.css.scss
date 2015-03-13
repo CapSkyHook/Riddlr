@@ -118,7 +118,7 @@ body {
   color: #434341;
   height: 100%;
   background-position: 50% 50%;
-/*  padding-top: 70px;*/
+  /*padding-top: 70px;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
@@ -733,3 +733,6 @@ div.title-for-link {
   border-bottom: 1px solid #434341;
 }
 
+.blog-form-modal {
+  z-index: 9;
+}

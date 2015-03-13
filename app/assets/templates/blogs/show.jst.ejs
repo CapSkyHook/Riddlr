@@ -27,7 +27,7 @@
     <span class="badge">Subscriptions: <%= blog.escape('subscriptions_count') || 0 %>
   </div>
 </div>
-<div class="text-center row">
+<div class="text-center row  make-posts">
   <div class="col-sm-3"> </div>
   <div class="col-sm-9">
   <% if (Stumplr.current_user_id === blog.get('owner_id')) { %>
@@ -42,8 +42,7 @@
 
   </div>
 </div>
-<br>
-<div class="text-center">
-    <div id="posts">
+<div class="text-center posts-location row">
+    <div id="posts" class="list-of-posts col-xs-11">
     </div>
 </div>

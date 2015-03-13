@@ -28,6 +28,54 @@
 
 }
 
+body {
+  background: #D2D2D2;
+  color: #434341;
+  height: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.make-posts {
+  margin-bottom: 15px;
+}
+
+.static-page-container {
+  height: 92.9%;
+}
+
+.static-page-row {
+  height: 100%;
+}
+
+#content {
+  height:100%;
+}
+
+.feed-view {
+  height: 100%;
+  overflow: scroll;
+}
+
+.blog-show {
+  height: 100%;
+  width: 100%;
+}
+
+.posts-location {
+  height: 72.1%;
+  overflow: scroll;
+  width: 100%
+}
+
+.list-of-posts {
+  width: 100%;
+}
+
 html, body {
   height: 100%;
 }
@@ -111,18 +159,6 @@ html, body {
 
 #fullscreen_bg > div > div > div.col-sm-3.login-form > form:nth-child(2) > input {
   font-size: 18px;
-}
-
-body {
-  background: #D2D2D2;
-  color: #434341;
-  height: 100%;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-
 }
 
 .navbar-default {

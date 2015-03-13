@@ -39,7 +39,6 @@ Stumplr.Views.BlogShow = Backbone.CompositeView.extend({
     });
 
     this.$el.html(renderedContent);
-    $("body").css("background-size", '100%');
     $("body").css("background-image", 'url(' + background_image_url + ')' );
     this.addProfilePhoto();
     this.renderPosts();

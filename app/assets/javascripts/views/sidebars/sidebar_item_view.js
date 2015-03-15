@@ -5,6 +5,7 @@ Stumplr.Views.SidebarItemView = Backbone.CompositeView.extend({
 
   initialize: function () {
     this.listenTo(this.model, "sync change:posts_count", this.render);
+    this.listenTo(this.model, "change:posts_count", this.changeColor);
   },
 
   render: function () {
@@ -16,4 +17,11 @@ Stumplr.Views.SidebarItemView = Backbone.CompositeView.extend({
 
     return this;
   },
+
+  changeColor: function(){
+    $("a.my-blog-link").css("color", '#428bca');
+
+  },
+
+
 });

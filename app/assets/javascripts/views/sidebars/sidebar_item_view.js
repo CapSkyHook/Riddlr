@@ -19,8 +19,9 @@ Stumplr.Views.SidebarItemView = Backbone.CompositeView.extend({
   },
 
   changeColor: function(){
+    if (this.model.get("posts_count") !== null){
     $("#sidebar-item-" + this.model.id).css("color", '#428bca');
-
+      }
   },
 
 

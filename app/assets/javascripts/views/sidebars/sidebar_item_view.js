@@ -16,5 +16,4 @@ Stumplr.Views.SidebarItemView = Backbone.CompositeView.extend({
 
     return this;
   },
-
 });

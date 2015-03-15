@@ -39,7 +39,7 @@ Stumplr.Views.PostShow = Backbone.CompositeView.extend({
     var that = this;
     this.model.destroy({
       success: function () {
-        that.blog.deletePost();
+        Stumplr.Collections.blogs.getOrFetch(that.blog.id).deletePost();
       }
     });
   },

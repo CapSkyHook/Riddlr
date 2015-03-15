@@ -341,7 +341,6 @@ img.post-pic {
   margin-left: -1.5px;
 }
 .timeline > li {
-  margin-bottom: 20px;
   position: relative;
 }
 .timeline > li:before,
@@ -373,7 +372,7 @@ img.post-pic {
 }
 .timeline > li.timeline-inverted + li:not(.timeline-inverted),
 .timeline > li:not(.timeline-inverted) + li.timeline-inverted {
-margin-top: -60px;
+margin-top: -21px;
 }
 
 .timeline > li:not(.timeline-inverted) {
@@ -766,4 +765,9 @@ div.title-for-link {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #434341;
+}
+
+.blog-profile-pic {
+  padding-left: 0px;
+  padding-right: 35px;
 }

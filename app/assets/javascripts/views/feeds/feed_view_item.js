@@ -12,6 +12,8 @@ Stumplr.Views.FeedViewItem = Backbone.CompositeView.extend({
   className: function (){
     if ((Stumplr.counter % 2) === 1) {
       return "timeline-inverted"
+    } else {
+      return "timeline-item"
     }
   },
 

@@ -5,7 +5,7 @@ Stumplr.Views.SidebarItemView = Backbone.CompositeView.extend({
 
   initialize: function () {
     this.listenTo(this.model, "sync change:posts_count", this.render);
-    this.listenTo(this.model, "change:posts_count", this.changeColor);
+    this.listenTo(this.model, "sync change:posts_count", this.changeColor);
   },
 
   render: function () {
@@ -19,10 +19,10 @@ Stumplr.Views.SidebarItemView = Backbone.CompositeView.extend({
   },
 
   changeColor: function(){
-    if (this.model.get("posts_count") !== 0 && this.model.previous("posts_count") !==0){
-    $("#sidebar-item-" + this.model.id).css("color", '#428bca');
-      }
-  },
+    if(this.model.hasChanged("posts_count") || this.model.previous("posts_count") === NaN){
+      $("#sidebar-item-" + this.model.id + " > a").css("color", '#428bca');
+    }
+  }
 
 
 });

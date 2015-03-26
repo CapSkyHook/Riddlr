@@ -1,4 +1,4 @@
-# Stumplr
+# Riddlr
 
 [Heroku link][heroku]
 
@@ -63,10 +63,6 @@ There will be a search box and a list of selectors for tags, content and title a
 - [ ] Can make posts via email
 - [ ] Can make posts via text message
 - [ ] Support for multiple open sessions
-- [x] User avatars
+- [ ] User avatars
 
-[phase-one]: ./docs/phases/phase1.md
-[phase-two]: ./docs/phases/phase2.md
-[phase-three]: ./docs/phases/phase3.md
-[phase-four]: ./docs/phases/phase4.md
-[phase-five]: ./docs/phases/phase5.md
+
